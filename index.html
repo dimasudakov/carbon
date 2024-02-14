@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="styles/circle.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/slide1.css">
+    <link rel="stylesheet" href="styles/slide2.css">
     <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/scrollbar.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <title>Carbon</title>
 </head>
@@ -32,8 +34,8 @@
 </header>
 
 <div id="parallax" class="parallax">
-    <div id="group1" class="parallax__group">
-        <div class="parallax__layer parallax__layer--base">
+    <div id="group1" class="parallax__group-1">
+        <div class="parallax__layer parallax__layer--base parallax-padding">
             <div class="payload">
                 <div class="info">
                     <h4>Международная научно-практическая конференция</h4>
@@ -55,14 +57,48 @@
         </div>
     </div>
 
-    <div id="group2" class="parallax__group">
-        <div class="parallax__layer parallax__layer--base">
-            <div class="title">Base Layer</div>
-        </div>
-        <div class="parallax__layer parallax__layer--back">
-            <div class="title">Background Layer</div>
+    <div id="group2" class="parallax__group-2">
+
+        <div class=" parallax-left-padding">
+            <div class="slide2">
+                <div class="left">
+                    <div class="text">
+                        <h4>Казанский (Приволжский) федеральный университет приглашает специалистов принять участие в
+                            Международной научно-практической конференции</h4>
+                        <h3>«Карбонатные отложения 2024»</h3>
+                        <h5>Конференция проводится в целях выявления способностей молодых исследователей, к
+                            научно-исследовательской деятельности, формирования проектных инициатив, предоставления
+                            ученым, практикующим специалистам возможности свободного обмена информацией и мнениями по
+                            теории и практике в области петрофизических исследований свойств пластовых флюидов и
+                            разработки карбонатных месторождений. Конференция является прекрасной возможностью для
+                            молодых исследователей представить свои научные результаты, завести рабочие знакомства и
+                            обменяться знаниями.</h5>
+                    </div>
+
+                    <div class="time-left">
+                        <div class="title">
+                            До начала конференции осталось
+                        </div>
+                        <div id="timebar-big">
+                            <script src="js/timebar-big.js"></script>
+                        </div>
+                        <div id="timebar-small">
+                            <script src="js/timebar-small.js"></script>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="assets/slide2/image2.png" alt="image" class="image2">
+                    <img src="assets/slide2/tag1.png" alt="tag1" class="tag1">
+                    <img src="assets/slide2/tag2.png" alt="tag2" class="tag2">
+                    <img src="assets/slide2/tag3.png" alt="tag3" class="tag3">
+                    <img src="assets/slide2/tag4.png" alt="tag4" class="tag4">
+                </div>
+            </div>
         </div>
     </div>
+
+
     <div id="group3" class="parallax__group">
         <div class="parallax__layer parallax__layer--fore">
             <div class="title">Foreground Layer</div>
@@ -86,4 +122,5 @@
 
 
 <script type="text/javascript" src="js/shell.js"></script>
+<script type="text/javascript" src="js/timebar-handler.js"></script>
 </body>

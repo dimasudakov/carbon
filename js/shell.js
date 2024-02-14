@@ -1,6 +1,6 @@
 document.getElementById('parallax').addEventListener('scroll', function() {
     var scrollPosition = this.scrollTop; 
-    var svgSize = 400 - scrollPosition * 0.5;
+    var svgSize = 400 - scrollPosition * 0.3;
     
     var right = -80 + (400 - svgSize) / 2 * 0.6;
 
@@ -10,6 +10,14 @@ document.getElementById('parallax').addEventListener('scroll', function() {
         document.querySelector('.shell-background').style.display = 'none'
     } else {
         document.querySelector('.shell-background').style.display = ''
+    }
+    
+    // 660 -> 760: opacity 1 -> 0
+    if(this.scrollTop > 660) {
+        const newOpacity = 1.0 - (this.scrollTop - 660.0) / 100.0
+        document.querySelector('.shell-background').style.opacity = newOpacity + ''
+    } else {
+        document.querySelector('.shell-background').style.opacity = '1'
     }
 
     document.querySelector('.shell-background').style.width = svgSize + 'px';

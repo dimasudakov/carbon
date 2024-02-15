@@ -38,7 +38,7 @@ body {
 }
 
 .parallax__layer--back {
-    transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) ;
 }
 
 .parallax__group {

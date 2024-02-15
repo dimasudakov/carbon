@@ -1,14 +1,16 @@
 .parallax__group-3 {
     position: relative;
     display: flex;
+    height: 100vh;
 
-    .background-image-3-1 {
+
+    .background-line-3-1 {
     }
-    .background-image-3-2 {
+    .background-line-3-2 {
     }
 
-    .background-image-3-1,
-    .background-image-3-2 {
+    .background-line-3-1,
+    .background-line-3-2 {
         position: absolute;
         top: 38%;
         width: 100%;
@@ -21,11 +23,13 @@
 
 .slide3 {
     display: flex;
+
     flex-direction: column;
     padding: 30px 100px;
     height: 100%;
     width: 100%;
     justify-content: space-evenly;
+    z-index: 100;
 
     .title {
         display: flex;

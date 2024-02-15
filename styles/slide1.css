@@ -26,7 +26,7 @@
 
 
 .parallax__layer--back-slide1 {
-    transform: translateZ(-2px) scale(3);
+    transform: translateZ(-1px) scale(2);
     width: 100%;
 }
 

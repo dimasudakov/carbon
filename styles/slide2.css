@@ -1,8 +1,8 @@
 
 .parallax__group-2 {
     position: relative;
-    height: 90vh;
     transform-style: preserve-3d;
+    padding: 40px 0;
 }
 
 .parallax-left-padding {

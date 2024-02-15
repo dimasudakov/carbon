@@ -1,0 +1,43 @@
+.parallax__group-4 {
+    display: flex;
+    position: relative;
+    background-color: rgba(156, 160, 255, 0.08);
+}
+
+.slide4 {
+    padding: 60px 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+
+    .title {
+        color: white;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 120%;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        height: 500px;
+
+        .item {
+            background-color: rgba(238, 232, 170, 0.14);
+            height: 100%;
+            width: 60%;
+        }
+    }
+
+    .fl-end {
+        justify-content: flex-end;
+    }
+
+    .fl-start {
+        justify-content: flex-start;
+    }
+}
+
+

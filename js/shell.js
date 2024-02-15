@@ -12,9 +12,9 @@ document.getElementById('parallax').addEventListener('scroll', function() {
         document.querySelector('.shell-background').style.display = ''
     }
     
-    // 660 -> 760: opacity 1 -> 0
+    // 660 -> 860: opacity 1 -> 0
     if(this.scrollTop > 660) {
-        const newOpacity = 1.0 - (this.scrollTop - 660.0) / 100.0
+        const newOpacity = 1.0 - (this.scrollTop - 660.0) / 200.0
         document.querySelector('.shell-background').style.opacity = newOpacity + ''
     } else {
         document.querySelector('.shell-background').style.opacity = '1'

@@ -22,7 +22,10 @@ function changePageLang() {
         loadTranslations()
     }
     for (const key in translations[currentLang]) {
-        document.getElementById(key).innerText = translations[currentLang][key];
+        const el = document.getElementById(key)
+        if(el) {
+            el.innerText = translations[currentLang][key];
+        }
     }
 }
 

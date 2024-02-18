@@ -94,7 +94,7 @@
             }
         }
         
-        @media screen and (max-width: 660px) {
+        @media screen and (max-width: 820px) {
             .item {
                 flex-direction: column;
 
@@ -124,11 +124,24 @@
 
         .w-70 {
             width: 70%;
-            min-width: 300px;
+            min-width: 450px;
         }
         .w-55 {
             width: 55%;
-            min-width: 300px;
+            min-width: 450px;
+        }
+        
+        @media screen and (max-width: 820px) {
+            .w-70 {
+                width: 100% !important;
+            }
+            .w-55 {
+                width: 100% !important;
+            }
+
+            .w-70, .w-55 {
+                min-width: 300px;
+            }
         }
     }
 
@@ -178,6 +191,14 @@
     z-index: -100;
 }
 
+@media screen and (max-width: 580px){
+    .shell2-background {
+        left: 15%;
+    }
+    .kran-background {
+        left: 20%;
+    }
+}
 
 .text-with-dots p::before {
     content: "•";

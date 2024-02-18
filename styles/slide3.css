@@ -1,18 +1,19 @@
 .parallax__group-3 {
     position: relative;
     display: flex;
-    height: 100vh;
+    height: 80vh;
 
 
     .background-line-3-1 {
     }
+
     .background-line-3-2 {
     }
 
     .background-line-3-1,
     .background-line-3-2 {
         position: absolute;
-        top: 38%;
+        top: 50%;
         width: 100%;
         left: 0;
         right: 0;
@@ -33,6 +34,7 @@
 
     .title {
         display: flex;
+
         h1 {
             font-style: normal;
             font-weight: 700;
@@ -59,20 +61,22 @@
         flex-wrap: wrap;
 
         .person-container {
-            position: relative;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
             width: 20%;
             min-width: 200px;
-            height: 300px;
 
-            .image {
-                position: absolute;
-                width: 360px;
-                left: 50%;
-                top: -25%;
-                transform: translateX(-50%);
+            .image-wrapper {
+                position: relative;
+                height: 155px;
+                width: 100%;
+                .image {
+                    width: 360px;
+                }
+                .stroke {
+                    width: 156px;
+                }
             }
 
             .description {
@@ -91,6 +95,7 @@
                     color: #FFFFFF;
                     margin: 0 0 10px 0;
                 }
+
                 h5 {
                     font-style: normal;
                     font-weight: 300;
@@ -102,20 +107,27 @@
                 }
             }
         }
-        
+
         @media screen and (max-width: 500px) {
             .person-container {
                 min-width: 120px;
                 height: 230px;
-                .image {
-                    width: 216px;
-                    top: -15%;
+
+                .image-wrapper {
+                    height: 120px;
+                    .image {
+                        width: 280px;
+                    }
+                    .stroke {
+                        height: 121px;
+                    }
                 }
 
                 .description {
                     h4 {
                         font-size: 14px;
                     }
+
                     h5 {
                         font-size: 11px;
                     }
@@ -123,7 +135,7 @@
             }
         }
     }
-    
+
     @media screen and(max-width: 500px) {
         .persons {
             gap: 10px;

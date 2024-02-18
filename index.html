@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="styles/slide3.css">
     <link rel="stylesheet" href="styles/slide4.css">
     <link rel="stylesheet" href="styles/slide5.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/todo.css">
     <link rel="stylesheet" href="styles/loop-strip.css">
     <link rel="stylesheet" href="styles/variables.css">
     <link rel="stylesheet" href="styles/scrollbar.css">
@@ -20,26 +22,12 @@
 </head>
 
 <body>
-<header>
-    <img src="assets/logo.svg" alt="Логотип" class="header-logo">
-    <a class="header-item" href="#">О конференции</a>
-    <a class="header-item" href="#">Эксперты</a>
-    <a class="header-item" href="#">Направления</a>
-    <a class="header-item" href="#">Условия участия</a>
-    <a class="header-item" href="#">Программа</a>
-    <a class="header-item" href="#">Регистрация</a>
-    <a class="header-item" href="#">Контакты</a>
-    <a class="header-item" href="#">Ru/Eng</a>
-    <div class="circle-container">
-        <img src="assets/circle.svg" alt="tg" class="circle-background">
-        <img src="assets/tg-logo.svg" alt="tg" class="circle-overlay">
-    </div>
-
-</header>
+<header id="carbon-header"></header>
+<div id="mobile-nav-bar"></div>
 
 <div id="parallax" class="parallax">
     <div id="group1" class="parallax__group-1">
-        <div class="parallax__layer parallax__layer--base parallax-padding">
+        <div class="parallax__layer parallax__layer--base parallax-padding slide1">
             <div class="payload">
                 <div class="info">
                     <h4>Международная научно-практическая конференция</h4>
@@ -48,7 +36,7 @@
                     <h5>14-16 августа 2024, г.Казань</h5>
                 </div>
                 <div class="actions">
-                    <div class="actions-btn">Подробная информация</div>
+                    <div class="actions-btn" id="">Подробная информация</div>
                     <div class="actions-btn">Программа конференции</div>
                     <div class="actions-btn">Стать участником</div>
                     <div class="actions-btn">Подпишитесь на нас</div>
@@ -57,7 +45,7 @@
             </div>
         </div>
         <div class="parallax__layer parallax__layer--back-slide1">
-            <img src="assets/shell.svg" alt="shell" class="shell-background">
+            <img src="assets/background/shell.svg" alt="shell" class="shell-top">
         </div>
     </div>
 
@@ -108,21 +96,40 @@
             <div class="title"><h1>Эксперты со всей России</h1></div>
             <div class="persons">
                 <div class="person-container">
-                    <img src="./assets/slide3/person1.png" alt="person1" class="image">
+                    <div class="image-wrapper">
+                        <img src="./assets/slide3/person1.png" alt="person1" class="image abs-center">
+                        <img id="stroke" src="./assets/slide3/stroke.svg" alt="" class="stroke abs-center">
+                    </div>
                     <div class="description">
                         <h4>Масагутов Рим Хакимович</h4>
                         <h5>Заслуженный геолог Республики Башкортостан, доктор г.-м. н.</h5>
                     </div>
                 </div>
                 <div class="person-container">
-                    <img src="./assets/slide3/person2.png" alt="person2" class="image">
+                    <div class="image-wrapper">
+                        <img src="./assets/slide3/person2.png" alt="person2" class="image abs-center">
+                        <img src="./assets/slide3/stroke.svg" alt="" class="stroke abs-center">
+                    </div>
                     <div class="description">
                         <h4>Морозов Владимир Петрович</h4>
                         <h5>Заведующий кафедрой литологии КФУ доктор г.-м. н.</h5>
                     </div>
                 </div>
                 <div class="person-container">
-                    <img src="./assets/slide3/person3.png" alt="person3" class="image">
+                    <div class="image-wrapper">
+                        <img src="./assets/slide3/person3.png" alt="person3" class="image abs-center">
+                        <img src="./assets/slide3/stroke.svg" alt="" class="stroke abs-center">
+                    </div>
+                    <div class="description">
+                        <h4>Имя Фамилия Отчество</h4>
+                        <h5>Заслуженный геолог Республики Башкортостан, доктор г.-м. н.</h5>
+                    </div>
+                </div>
+                <div class="person-container">
+                    <div class="image-wrapper">
+                        <img src="./assets/slide3/person3.png" alt="person3" class="image abs-center">
+                        <img src="./assets/slide3/stroke.svg" alt="" class="stroke abs-center">
+                    </div>
                     <div class="description">
                         <h4>Имя Фамилия Отчество</h4>
                         <h5>Заслуженный геолог Республики Башкортостан, доктор г.-м. н.</h5>
@@ -309,12 +316,28 @@
     </div>
 
     <div id="group5" class="parallax__group-5">
-        <div class="slide5">
+        <div id="slide5" class="slide5">
+            <!--      terms.js      -->
+        </div>
 
+        <img src="assets/background/shell-bottom.svg" alt="" class="shell-bottom" />
+    </div>
+
+    <div id="group6" class="parallax__group-6">
+        <div id="footer" class="footer">
+            <!--      footer.js      -->
         </div>
     </div>
+
+    <img id="backtop" class="backtop" src="assets/backtop.svg" alt="backtop"/>
 </div>
 
+<script type="text/javascript" src="./js/header/header.js"></script>
+<script type="text/javascript" src="./js/header/navbar.js"></script>
+<script type="text/javascript" src="./js/terms-of-participation/terms.js"></script>
+<script type="text/javascript" src="./js/footer/footer.js"></script>
+<script type="text/javascript" src="js/scroll/backtop.js"></script>
+<script type="text/javascript" src="js/stroke.js"></script>
 
 <script type="text/javascript" src="js/shell.js"></script>
 <script type="text/javascript" src="js/slow-background.js"></script>

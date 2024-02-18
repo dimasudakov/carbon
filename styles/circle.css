@@ -1,9 +1,20 @@
 
 .circle-container {
     position: relative;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.circle-big {
     min-width: 36px;
     min-height: 36px;
-    margin-left: 50px;
+}
+
+.circle-small {
+    min-width: 20px;
+    min-height: 20px;
 }
 
 .circle-background {
@@ -14,9 +25,10 @@
     height: 100%;
 }
 
-.circle-overlay {
+.circle-logo {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-60%, -40%);
+    width: 60%;
 }

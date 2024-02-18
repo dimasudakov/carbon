@@ -83,14 +83,23 @@ const footerContentMobile = `
             <div class="footer-line"></div>
 `
 
+
 function updateFooter() {
-    if(window.innerWidth <= 920) {
-        footer.innerHTML = footerContentMobile
-    } else {
-        footer.innerHTML = footerContent
+
+    let prevWindowWidth = -1
+
+    function update() {
+        if (window.innerWidth <= 920 && (prevWindowWidth > 920 || prevWindowWidth === -1)) {
+            footer.innerHTML = footerContentMobile
+        } 
+        if (window.innerWidth > 920 && (prevWindowWidth <= 920 || prevWindowWidth === -1)) {
+            footer.innerHTML = footerContent
+        }
+        prevWindowWidth = window.innerWidth
     }
     
-    window.addEventListener('resize', updateFooter)
+    update()
+    window.addEventListener('resize', update)
 }
 
 updateFooter()

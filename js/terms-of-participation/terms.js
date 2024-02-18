@@ -6,7 +6,7 @@ const slide5Content = `
             <div class="payload">
                 <div class="item">
                     <div class="logo-wrapper">
-                        <img src="assets/slide5/logo1.png" alt="logo1" class="logo abs-center">
+                        <img src="assets/slide5/logo1.png" alt="" class="logo abs-center">
                     </div>
                     <div class="info">
                         Участие бесплатное для всех типов участников!
@@ -14,7 +14,7 @@ const slide5Content = `
                 </div>
                 <div class="item">
                     <div class="logo-wrapper">
-                        <img src="assets/slide5/logo2.png" alt="logo2" class="logo abs-center">
+                        <img src="assets/slide5/logo2.png" alt="" class="logo abs-center">
                     </div>
                     <div class="info">
                         В дни проведения конференции для всех участников конференции будут организованы обеды и кофе-брейки.
@@ -22,7 +22,7 @@ const slide5Content = `
                 </div>
                 <div class="item">
                     <div class="logo-wrapper">
-                        <img src="assets/slide5/logo1.png" alt="logo1" class="logo abs-center">
+                        <img src="assets/slide5/logo3.png" alt="" class="logo abs-center">
                     </div>
                     <div class="info">
                         Тезисы докладов отправлять на почту. Участники будут отобраны на основе тезисов докладов. Количество делегатов-соавторов ограничено
@@ -30,7 +30,7 @@ const slide5Content = `
                 </div>
                 <div class="item">
                     <div class="logo-wrapper">
-                        <img src="assets/slide5/logo1.png" alt="logo1" class="logo abs-center">
+                        <img src="assets/slide5/logo4.png" alt="" class="logo abs-center">
                     </div>
                     <div class="info">
                         Участники самостоятельно оплачивают транспортные расходы при переезде.
@@ -38,7 +38,7 @@ const slide5Content = `
                 </div>
                 <div class="item">
                     <div class="logo-wrapper">
-                        <img src="assets/slide5/logo1.png" alt="logo1" class="logo abs-center">
+                        <img src="assets/slide5/logo5.png" alt="" class="logo abs-center">
                     </div>
                     <div class="info">
                         Основные варианты размещения в отелях, которые мы рекомендуем, можно найти здесь.

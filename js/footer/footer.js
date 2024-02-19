@@ -4,13 +4,13 @@ const footerContent = `
             <img src="assets/footer/map.png" alt="map" class="map"/>
             <div class="info">
                 <div class="contacts">
-                    <div class="title">Контакты</div>
+                    <div class="title" id="slide5_title_1"></div>
                     <ul>
-                        <li>
+                        <li id="slide5_title_2">
                             <div class="logo-wrapper">
                                 <img src="assets/footer/logo-user.png" alt="user" class="logo abs-center" />
                             </div>
-                            Семенова Алия Аликовна
+                       
                         </li>
                         <li>
                             <div class="logo-wrapper">
@@ -33,20 +33,19 @@ const footerContent = `
                     </ul>
                 </div>
                 <div class="location">
-                    <div class="title">Место проведения</div>
-                    <h4>Институт геологии и нефтегазовых технологий, КФУ
-                        Республика Татарстан, г. Казань, ул. Кремлевская 4/5</h4>
+                    <div class="title" id="slide5_title_3"></div>
+                    <h4 id="slide5_title_4"></h4>
                 </div>
             </div>
 `
 
 const footerContentMobile = `
     <div class="contacts-m">
-                <div class="title-m">
+                <div class="title-m" id="slide5_title_1">
                     Контакты
                 </div>
                 <ul>
-                    <li>
+                    <li id="slide5_title_2">
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-user.png" alt="user" class="logo abs-center" />
                         </div>
@@ -75,8 +74,8 @@ const footerContentMobile = `
             <div class="location-m">
                 <img src="assets/footer/map.png" alt="map" class="map" />
                 <div class="info-m">
-                    <div class="title">Место проведения</div>
-                    <h5>Институт геологии и нефтегазовых технологий, КФУ
+                    <div class="title" id="slide5_title_3">Место проведения</div>
+                    <h5 id="slide5_title_4">Институт геологии и нефтегазовых технологий, КФУ
                         Республика Татарстан, г. Казань, ул. Кремлевская 4/5</h5>
                 </div>
             </div>

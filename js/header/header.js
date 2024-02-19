@@ -7,13 +7,13 @@ let prevWindowWidth = -1
 function updateHeader() {
     const bigHeader = `
     <img src="assets/logo.svg" alt="Логотип" class="header-logo-big">
-    <a class="header-item" href="#">О конференции</a>
-    <a class="header-item" href="#">Эксперты</a>
-    <a class="header-item" href="#">Направления</a>
-    <a class="header-item" href="#">Условия участия</a>
-    <a class="header-item" href="#">Программа</a>
-    <a class="header-item" href="#">Регистрация</a>
-    <a class="header-item" href="#">Контакты</a>
+    <a class="header-item" href="#" id="navbar_title_2"></a>
+    <a class="header-item" href="#" id="navbar_title_3"></a>
+    <a class="header-item" href="#" id="navbar_title_4"></a>
+    <a class="header-item" href="#" id="header_title_1"></a>
+    <a class="header-item" href="#" id="header_title_2"></a>
+    <a class="header-item" href="#" id="header_title_3"></a>
+    <a class="header-item" href="#" id="navbar_title_10"></a>
     <a class="header-item" id="langButton">Ru/Eng</a>
     <div class="circle-container ml-50 circle-big">
         <img src="assets/circle.svg" alt="tg" class="circle-background">

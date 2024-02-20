@@ -55,9 +55,10 @@
     "slide4_title_22": "Дизайн соляно-кислотных обработок",
 
     "slide5_title_1": "Contacts",
-    "slide5_title_2": "Семенова Алия Аликовна",
+    "slide5_title_2": "--------------",
     "slide5_title_3": "Location",
     "slide5_title_4": "Institute of Geology and Oil and Gas Technologies, KFU, Republic of Tatarstan, Kazan, Kremlevskaya str. 4/5",
+    "slide5_title_5": "--------------",
 
     "slide6_title_1": "Terms of participation",
     "slide6_title_2": "Participation is free for all types of participants!",
@@ -83,8 +84,19 @@
     "navbar_title_10": "Contacts",
 
     "header_title_1": "Terms of participation",
-    "header_title_2": "program",
-    "header_title_3": "Registration"
+    "header_title_2": "Program",
+    "header_title_3": "Registration",
+    "timer-text-3c1fb36c97934767dcf7ab3e41990b1d-days": "days",
+    "timer-text-3c1fb36c97934767dcf7ab3e41990b1d-hours": "hours",
+    "timer-text-3c1fb36c97934767dcf7ab3e41990b1d-minutes": "minutes",
+    "timer-text-3c1fb36c97934767dcf7ab3e41990b1d-secundes": "seconds",
+
+    "timer-text-401c1e573525e90fd43dd023fdf4bbcf-days": "days",
+    "timer-text-401c1e573525e90fd43dd023fdf4bbcf-hours": "hours",
+    "timer-text-401c1e573525e90fd43dd023fdf4bbcf-minutes": "minutes",
+    "timer-text-401c1e573525e90fd43dd023fdf4bbcf-secundes": "seconds",
+
+    "download-doc": "Download full terms"
   },
 
   "Ru": {
@@ -146,6 +158,7 @@
     "slide5_title_2": "Семенова Алия Аликовна",
     "slide5_title_3": "Место проведения",
     "slide5_title_4": "Институт геологии и нефтегазовых технологий, КФУ Республика Татарстан, г. Казань, ул. Кремлевская 4/5",
+    "slide5_title_5": "+7 (986) 712-94-93",
 
     "slide6_title_1": "Условия участия",
     "slide6_title_2": "Участие бесплатное для всех типов участников!",
@@ -172,6 +185,18 @@
 
     "header_title_1": "Условия участия",
     "header_title_2": "Программа",
-    "header_title_3": "Регистрация"
+    "header_title_3": "Регистрация",
+
+    "timer-text-3c1fb36c97934767dcf7ab3e41990b1d-days": "дней",
+    "timer-text-3c1fb36c97934767dcf7ab3e41990b1d-hours": "часов",
+    "timer-text-3c1fb36c97934767dcf7ab3e41990b1d-minutes": "минут",
+    "timer-text-3c1fb36c97934767dcf7ab3e41990b1d-secundes": "секунд",
+
+    "timer-text-401c1e573525e90fd43dd023fdf4bbcf-days": "дней",
+    "timer-text-401c1e573525e90fd43dd023fdf4bbcf-hours": "часов",
+    "timer-text-401c1e573525e90fd43dd023fdf4bbcf-minutes": "минут",
+    "timer-text-401c1e573525e90fd43dd023fdf4bbcf-secundes": "секунд",
+
+    "download-doc": "Скачать полный регламент"
   }
 }

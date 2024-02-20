@@ -6,30 +6,33 @@ let prevWindowWidth = -1
 
 function updateHeader() {
     const bigHeader = `
-    <img src="assets/logo.svg" alt="Логотип" class="header-logo-big">
+    <img src="" alt="Логотип" class="header-logo-big" id="header-logo">
     <a class="header-item" href="#" id="navbar_title_2"></a>
     <a class="header-item" href="#" id="navbar_title_3"></a>
     <a class="header-item" href="#" id="navbar_title_4"></a>
     <a class="header-item" href="#" id="header_title_1"></a>
     <a class="header-item" href="#" id="header_title_2"></a>
-    <a class="header-item" href="#" id="header_title_3"></a>
+    <a class="header-item" href="https://docs.google.com/forms/d/e/1FAIpQLSeZXqS5a7rVZkholegRZjV327MVUC-uMne8scGBvhg4P7pLRg/viewform" id="header_title_3"></a>
     <a class="header-item" href="#" id="navbar_title_10"></a>
     <a class="header-item" id="langButton">Ru/Eng</a>
     <div class="circle-container ml-50 circle-big">
         <img src="assets/circle.svg" alt="tg" class="circle-background">
-        <img src="assets/tg-logo.svg" alt="tg" class="circle-logo">
+        <img src="assets/tg-logo.svg" alt="tg" class="circle-logo" id="tg-link">
     </div>
   `;
 
     const mobileHeader = `
     <div class="header-wrapper">
         <img src="assets/header/navbar-icon.svg" alt="gg" class="nav-button" id="navButton" />
-        <img src="assets/logo.svg" alt="Лого" class="header-logo-small" />
+        <img src="" alt="Лого" class="header-logo-small" id="header-logo" />
     </div>
   `;
 
     closeNavigationBar()
     if (window.innerWidth < 1270 && (prevWindowWidth >= 1270 || prevWindowWidth === -1)) {
+        if(prevWindowWidth !== -1) {
+            location.reload()
+        }
         carbonHeader.innerHTML = mobileHeader;
         const navButton = carbonHeader.querySelector('.nav-button');
         if (navButton) {
@@ -37,6 +40,9 @@ function updateHeader() {
         }
     }
     if (window.innerWidth >= 1270 && (prevWindowWidth < 1270 || prevWindowWidth === -1)) {
+        if(prevWindowWidth !== -1) {
+            location.reload()
+        }
         carbonHeader.innerHTML = bigHeader;
         removeEventListener('click', handleNavBarClick)
     }

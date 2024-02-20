@@ -31,4 +31,5 @@
     left: 50%;
     transform: translate(-60%, -40%);
     width: 60%;
+    cursor: pointer;
 }

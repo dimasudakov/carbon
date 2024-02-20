@@ -6,17 +6,17 @@ const footerContent = `
                 <div class="contacts">
                     <div class="title" id="slide5_title_1"></div>
                     <ul>
-                        <li id="slide5_title_2">
+                        <li>
                             <div class="logo-wrapper">
                                 <img src="assets/footer/logo-user.png" alt="user" class="logo abs-center" />
                             </div>
-                       
+                            <div id="slide5_title_2"></div>
                         </li>
                         <li>
                             <div class="logo-wrapper">
                                 <img src="assets/footer/logo-call.png" alt="user" class="logo abs-center" />
                             </div>
-                            +7 (986) 712-94-93
+                            <div id="slide5_title_5"></div>
                         </li>
                         <li>
                             <div class="logo-wrapper">
@@ -45,17 +45,17 @@ const footerContentMobile = `
                     Контакты
                 </div>
                 <ul>
-                    <li id="slide5_title_2">
+                    <li>
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-user.png" alt="user" class="logo abs-center" />
                         </div>
-                        Семенова Алия Аликовна
+                        <div id="slide5_title_2"></div>
                     </li>
                     <li>
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-call.png" alt="user" class="logo abs-center" />
                         </div>
-                        +7 (986) 712-94-93
+                        <div id="slide5_title_5"></div>
                     </li>
                     <li>
                         <div class="logo-wrapper">

@@ -2,7 +2,10 @@
 const slide5 = document.getElementById('slide5')
 
 const slide5Content = `
-            <div class="title" id="slide6_title_1"></div>
+            <div class="title" id="slide6_title_1">        
+            </div>
+            <div class="download-doc" id="download-doc"></div>    
+            
             <div class="payload">
                 <div class="item">
                     <div class="logo-wrapper">

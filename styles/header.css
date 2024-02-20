@@ -108,7 +108,7 @@ header {
         }
 
         .navbar-action {
-
+            cursor: pointer;
         }
         .navbar-action:active {
             background-color: #464646;

@@ -7,14 +7,14 @@ let prevWindowWidth = -1
 function updateHeader() {
     const bigHeader = `
     <img src="" alt="Логотип" class="header-logo-big" id="header-logo">
-    <a class="header-item" href="#" id="navbar_title_2"></a>
-    <a class="header-item" href="#" id="navbar_title_3"></a>
-    <a class="header-item" href="#" id="navbar_title_4"></a>
-    <a class="header-item" href="#" id="header_title_1"></a>
-    <a class="header-item" href="#" id="header_title_2"></a>
-    <a class="header-item" href="https://docs.google.com/forms/d/e/1FAIpQLSeZXqS5a7rVZkholegRZjV327MVUC-uMne8scGBvhg4P7pLRg/viewform" id="header_title_3"></a>
-    <a class="header-item" href="#" id="navbar_title_10"></a>
-    <a class="header-item" id="langButton">Ru/Eng</a>
+    <a class="header-item f-mx1" href="#" id="navbar_title_2"></a>
+    <a class="header-item f-mx1" href="#" id="navbar_title_3"></a>
+    <a class="header-item f-mx1" href="#" id="navbar_title_4"></a>
+    <a class="header-item f-mx1" href="#" id="header_title_1"></a>
+    <a class="header-item f-mx1" href="#" id="header_title_2"></a>
+    <a class="header-item f-mx1" href="https://docs.google.com/forms/d/e/1FAIpQLScjIwM_fqLaUyaJCpZesMHfJPYK167f-lKuGipJBYgEXpsh0Q/viewform?usp=sf_link" id="header_title_3"></a>
+    <a class="header-item f-mx1" href="#" id="navbar_title_10"></a>
+    <a class="header-item f-mx1" id="langButton">Ru/Eng</a>
     <div class="circle-container ml-50 circle-big">
         <img src="assets/circle.svg" alt="tg" class="circle-background">
         <img src="assets/tg-logo.svg" alt="tg" class="circle-logo" id="tg-link">

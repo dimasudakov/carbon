@@ -10,6 +10,8 @@
 .circle-big {
     min-width: 36px;
     min-height: 36px;
+    height: 100%;
+    width: 2.6vw
 }
 
 .circle-small {

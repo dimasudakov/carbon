@@ -20,7 +20,7 @@ document.getElementById('slide1_action_2').addEventListener('click', function() 
 });
 
 document.getElementById('slide1_action_3').addEventListener('click', function() {
-    var url = 'https://docs.google.com/forms/d/e/1FAIpQLSeZXqS5a7rVZkholegRZjV327MVUC-uMne8scGBvhg4P7pLRg/viewform';
+    var url = 'https://docs.google.com/forms/d/e/1FAIpQLScjIwM_fqLaUyaJCpZesMHfJPYK167f-lKuGipJBYgEXpsh0Q/viewform?usp=sf_link';
 
     window.location.href = url;
 });

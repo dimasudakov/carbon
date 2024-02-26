@@ -15,14 +15,13 @@
     z-index: 1000;
     color: white;
     height: auto;
-    padding: 40px var(--page-content-padding);
+    padding: 5vh var(--page-content-padding);
     background-color: var(--background-color);
 
     .title {
         height: auto;
         font-style: normal;
         font-weight: 700;
-        font-size: 60px;
         line-height: 120%;
         color: #FFFFFF;
         position: relative;
@@ -30,10 +29,12 @@
     .download-doc {
         position: absolute;
         right: 100px;
-        color: white;
+        background: var(--linear-gradient-1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         top: 65px;
         font-size: 12px;
-        z-index: 100000;
+        z-index: 10001;
         cursor: pointer;
     }
     
@@ -50,16 +51,16 @@
         flex-direction: row;
         flex-wrap: wrap;
         height: auto;
-        margin-top: 40px;
+        margin-top: 6vh;
         justify-content: center;
-        gap: 25px;
+        gap: 3vw;
         width: 100%;
 
         .item {
             display: flex;
             flex-direction: column;
-            width: 200px;
-            max-height: 300px;
+            width: 12vw;
+            min-width: 200px;
 
             .logo-wrapper {
                 width: 100%;
@@ -67,13 +68,14 @@
                 position: relative;
 
                 .logo {
-                    height: 360px;
-                    width: 360px;
+                    height: auto;
+                    width: 20vw;
+                    min-width: 360px;
                 }
             }
 
             .info {
-                margin-top: 20px;
+                margin-top: 5vh;
                 text-align: center;
                 font-size: 12px;
             }
@@ -83,7 +85,7 @@
     @media screen and (max-width: 550px) {
         .payload {
             flex-direction: column;
-            gap: 0;
+            gap: 20px;
             .item {
                 flex-direction: row;
                 width: 100%;
@@ -93,8 +95,9 @@
                     width: 80px !important;
                     height: 80px;
                     .logo {
-                        height: 200px;
-                        width: 200px;
+                        height: auto;
+                        width: 200px !important;
+                        min-width: 200px;
                     }
                 }
                 .info {
@@ -141,8 +144,7 @@
 
 .shell-bottom {
     min-width: 150px;
-    width: 250px;
-    max-width: 400px;
+    width: 26vw;
     position: absolute;
     z-index: 1000;
     right: -4%;

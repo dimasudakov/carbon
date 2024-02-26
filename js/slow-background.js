@@ -1,14 +1,15 @@
 document.getElementById('parallax').addEventListener('scroll', function () {
-    var scrollPosition = this.scrollTop;
+    const scrollPosition = this.scrollTop;
 
-    var rotationShell = (scrollPosition * 0.04) + 'deg';
+    const rotationShell = (scrollPosition * 0.04) + 'deg';
 
     document.querySelector('.shell2-background').style.transform = 'rotate(' + rotationShell + ')';
 
-    if (this.scrollTop > 1750) {
-        let addWidth = (this.scrollTop - 1750) * 0.1
-        let left = (this.scrollTop - 1750) / 2000 * 15
+    if (this.scrollTop > group2.offsetTop) {
+        const part = (this.scrollTop - group2.offsetTop) / (group5.offsetTop + group5.offsetHeight - group2.offsetTop)
+        let addWidth = part * 10
+        let left = part * 15
         document.querySelector('.microscope-background').style.left = 15 - left + '%';
-        document.querySelector('.microscope-background').style.width = 400 + addWidth + 'px';
+        document.querySelector('.microscope-background').style.width = 30 + addWidth + 'vw';
     }
 });

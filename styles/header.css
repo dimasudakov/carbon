@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 1.6vw;
     position: fixed;
     top: 0;
     left: 0;
@@ -13,6 +13,7 @@ header {
     border-color: transparent;
     border-style: solid;
     background-color: var(--header-background-color);
+    overflow: hidden;
 }
 
 .header-item {
@@ -21,7 +22,6 @@ header {
 
     color: white;
     text-decoration: none;
-    font-size: 14px;
     cursor: pointer;
     user-select: none;
 }

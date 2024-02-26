@@ -7,8 +7,7 @@ langButton.addEventListener('click', handleChangeLanguage)
 
 function handleChangeLanguage() {
     if(currentLang === "Ru") {
-        // навремя заблокировал англ язык
-        currentLang = "Ru"
+        currentLang = "En"
         localStorage.setItem("language", "Ru");
         changePageLang()
     } else {
@@ -38,14 +37,14 @@ function changePageLang() {
     document.getElementById('planet').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-planet.svg"
     document.getElementById('tatneft').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-tatneft.svg"
     document.getElementById('gasprom').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-gasprom.svg"
-    document.getElementById('rosneft').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-rosneft.svg"
+    // document.getElementById('rosneft').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-rosneft.svg"
     document.getElementById('georesources').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-georesources.svg"
 
     document.getElementById('kpfu2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-kpfu.svg"
     document.getElementById('planet2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-planet.svg"
     document.getElementById('tatneft2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-tatneft.svg"
     document.getElementById('gasprom2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-gasprom.svg"
-    document.getElementById('rosneft2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-rosneft.svg"
+    // document.getElementById('rosneft2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-rosneft.svg"
     document.getElementById('georesources2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-georesources.svg"
     
     document.getElementById('header-logo').src = "assets/header/" + currentLang.toLowerCase() + "-logo.svg"

@@ -74,7 +74,7 @@ if (programMobile) programMobile.addEventListener('click', function () {
 
 const signUpMobile = document.getElementById('navbar_title_8_m')
 if (signUpMobile) signUpMobile.addEventListener('click', function () {
-    var url = 'https://docs.google.com/forms/d/e/1FAIpQLSeZXqS5a7rVZkholegRZjV327MVUC-uMne8scGBvhg4P7pLRg/viewform';
+    var url = 'https://docs.google.com/forms/d/e/1FAIpQLScjIwM_fqLaUyaJCpZesMHfJPYK167f-lKuGipJBYgEXpsh0Q/viewform?usp=sf_link';
 
     window.location.href = url;
 });

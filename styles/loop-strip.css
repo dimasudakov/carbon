@@ -1,9 +1,9 @@
 .wrapper {
-    height: 150px;
+    height: 15vh;
     display: flex;
     align-items: center;
     position: relative;
-    width: 1831px;
+    width: 200%;
     justify-content: center;
 
     .shadow {
@@ -26,11 +26,10 @@
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    animation: marquee 8s linear infinite;
-    gap: 100px;
-    width: 100%;
+    width: 50%;
     height: 100%;
-    z-index: 10000;
+    z-index: 2025;
+    gap: 8vw;
 
     .loop-group {
         display: flex;
@@ -43,23 +42,39 @@
             color: white;
             font-style: normal;
             font-weight: 700;
-            font-size: 20px;
             line-height: 120%;
         }
 
         .logo-container {
-            height: 90px;
+            height: 60%;
             display: flex;
             flex-direction: row;
             align-items: center;
-            gap: 60px;
+            gap: 4vw;
+
+            a {
+                height: 100%;
+                display: flex;
+                align-items: center;
+
+                .logo {
+                    height: 60%;
+                    width: auto;
+                }
+            }
         }
     }
 }
 
+.marquee {
+    animation: marquee 11s linear infinite;
+    left: 0;
+}
+
 .marquee2 {
-    position: absolute;
-    left: 1831px;
+    animation: marquee2 11s linear infinite;
+    left: auto;
+    right: 0;
 }
 
 @media screen and (max-width: 1100px) {
@@ -82,7 +97,7 @@
                 gap: 20px;
 
                 .logo {
-                    height: 60%;
+                    height: 100%;
                 }
             }
         }
@@ -139,6 +154,7 @@
         position: relative !important;
         flex-direction: column;
         height: auto;
+        width: 90%;
 
         .loop-group {
             text-align: center;
@@ -151,6 +167,10 @@
                 justify-content: center;
                 flex-wrap: wrap;
                 height: auto;
+
+                .logo {
+                    width: 100%;
+                }
             }
         }
         .loop-group:first-child {

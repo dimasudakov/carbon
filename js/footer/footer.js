@@ -11,25 +11,25 @@ const footerContent = `
                     <ul>
                         <li>
                             <div class="logo-wrapper">
-                                <img src="assets/footer/logo-user.png" alt="user" class="logo abs-center" />
+                                <img src="assets/footer/logo-user.png" alt="" class="logo abs-center" />
                             </div>
                             <div id="slide5_title_2" class="f-mx1"></div>
                         </li>
                         <li>
                             <div class="logo-wrapper">
-                                <img src="assets/footer/logo-call.png" alt="user" class="logo abs-center" />
+                                <img src="assets/footer/logo-call.png" alt="" class="logo abs-center" />
                             </div>
                             <div id="slide5_title_5" class="f-mx1"></div>
                         </li>
                         <li>
                             <div class="logo-wrapper">
-                                <img src="assets/footer/logo-email.png" alt="user" class="logo abs-center" />
+                                <img src="assets/footer/logo-email.png" alt="" class="logo abs-center" />
                             </div>
                             <div class="f-mx1">karbon.conf@gmail.com</div>
                         </li>
                         <li>
                             <div class="logo-wrapper">
-                                <img src="assets/footer/logo-tg.png" alt="user" class="logo abs-center" />
+                                <img src="assets/footer/logo-tg.png" alt="" class="logo abs-center" />
                             </div>
                             <a href="https://t.me/karb0n_ru">
                                 <div class="f-mx1">@karb0n_ru</div>
@@ -52,25 +52,25 @@ const footerContentMobile = `
                 <ul>
                     <li>
                         <div class="logo-wrapper">
-                            <img src="assets/footer/logo-user.png" alt="user" class="logo abs-center" />
+                            <img src="assets/footer/logo-user.png" alt="" class="logo abs-center" />
                         </div>
                         <div id="slide5_title_2"></div>
                     </li>
                     <li>
                         <div class="logo-wrapper">
-                            <img src="assets/footer/logo-call.png" alt="user" class="logo abs-center" />
+                            <img src="assets/footer/logo-call.png" alt="" class="logo abs-center" />
                         </div>
                         <div id="slide5_title_5"></div>
                     </li>
                     <li>
                         <div class="logo-wrapper">
-                            <img src="assets/footer/logo-email.png" alt="user" class="logo abs-center" />
+                            <img src="assets/footer/logo-email.png" alt="" class="logo abs-center" />
                         </div>
                         karbon.conf@gmail.com
                     </li>
                     <li>
                         <div class="logo-wrapper">
-                            <img src="assets/footer/logo-tg.png" alt="user" class="logo abs-center" />
+                            <img src="assets/footer/logo-tg.png" alt="" class="logo abs-center" />
                         </div>
                         @karb0n_ru
                     </li>

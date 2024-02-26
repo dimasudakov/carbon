@@ -9,7 +9,7 @@ document.getElementById('parallax').addEventListener('scroll', function () {
         const part = (this.scrollTop - group2.offsetTop) / (group5.offsetTop + group5.offsetHeight - group2.offsetTop)
         let addWidth = part * 10
         let left = part * 15
-        document.querySelector('.microscope-background').style.left = 15 - left + '%';
-        document.querySelector('.microscope-background').style.width = 30 + addWidth + 'vw';
+        // document.querySelector('.microscope-background').style.left = 15 - left + '%';
+        // document.querySelector('.microscope-background').style.width = 30 + addWidth + 'vw';
     }
 });

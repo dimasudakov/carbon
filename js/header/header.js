@@ -12,7 +12,7 @@ function updateHeader() {
     <a class="header-item f-mx1" href="#" id="navbar_title_4"></a>
     <a class="header-item f-mx1" href="#" id="header_title_1"></a>
     <a class="header-item f-mx1" href="#" id="header_title_2"></a>
-    <a class="header-item f-mx1" href="https://docs.google.com/forms/d/e/1FAIpQLScjIwM_fqLaUyaJCpZesMHfJPYK167f-lKuGipJBYgEXpsh0Q/viewform?usp=sf_link" id="header_title_3"></a>
+    <a class="header-item f-mx1 gradient relative" href="https://docs.google.com/forms/d/e/1FAIpQLScjIwM_fqLaUyaJCpZesMHfJPYK167f-lKuGipJBYgEXpsh0Q/viewform?usp=sf_link" id="header_title_3"></a>
     <a class="header-item f-mx1" href="#" id="navbar_title_10"></a>
     <a class="header-item f-mx1" id="langButton">Ru/Eng</a>
     <div class="circle-container ml-50 circle-big">

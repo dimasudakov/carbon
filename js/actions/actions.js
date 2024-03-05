@@ -1,4 +1,6 @@
 
+const signUpLing = 'https://docs.google.com/forms/d/e/1FAIpQLScjIwM_fqLaUyaJCpZesMHfJPYK167f-lKuGipJBYgEXpsh0Q/viewform?usp=sf_link'
+
 document.getElementById('slide1_action_1').addEventListener('click', function() {
     const group2 = document.getElementById('group2');
 
@@ -20,16 +22,36 @@ document.getElementById('slide1_action_2').addEventListener('click', function() 
 });
 
 document.getElementById('slide1_action_3').addEventListener('click', function() {
-    var url = 'https://docs.google.com/forms/d/e/1FAIpQLScjIwM_fqLaUyaJCpZesMHfJPYK167f-lKuGipJBYgEXpsh0Q/viewform?usp=sf_link';
-
-    window.location.href = url;
+    window.location.href = signUpLing;
 });
+
+document.getElementById('slide1_become-participant').addEventListener('click', function() {
+    window.location.href = signUpLing;
+});
+
+document.getElementById('slide4_sign-up-1').addEventListener('click', function() {
+    window.location.href = signUpLing;
+});
+
+document.getElementById('slide4_sign-up-2').addEventListener('click', function() {
+    window.location.href = signUpLing;
+});
+
+document.getElementById('slide4_sign-up-3').addEventListener('click', function() {
+    window.location.href = signUpLing;
+});
+
+document.getElementById('slide2_sign-up').addEventListener('click', function() {
+    window.location.href = signUpLing;
+});
+
 
 document.getElementById('slide1_action_4').addEventListener('click', function() {
     var url = 'https://t.me/karb0n_ru';
 
     window.location.href = url;
 });
+
 
 
 document.getElementById('slide1_action_5').addEventListener('click', function() {

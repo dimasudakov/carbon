@@ -47,6 +47,11 @@
             justify-content: center;
             max-width: 50%;
 
+            .become-participant {
+                margin-top: max(10px, 3vh);
+                cursor: pointer;
+            }
+
             h4 {
                 font-style: normal;
                 font-weight: 400;
@@ -129,6 +134,10 @@
             color: white;
         }
         .actions-btn:hover {
+            background-color: rgba(255, 255, 255, 0.75);
+            color: black;
+        }
+        .become-participant-action {
             background-color: rgba(255, 255, 255, 0.75);
             color: black;
         }

@@ -2,20 +2,22 @@ const footer = document.getElementById('footer')
 
 const footerContent = `
             <div class="map-wrapper">
-                    <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Aeb0117ca2bbcf9e9d3ee8018721fb2d1fec2a662b21b93d3b4998e912575d30d&amp;source=constructor" frameborder="0"></iframe>            
+                <img src="assets/footer/map-wrapper.png" alt="" class="stroke-map">
+                <div class="map-container">
+                    <iframe class="yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A1e6db94c8bf59d5b0f84cb462f2b3a686705fa9c7c61ca96faebaaf6245312ce&amp;source=constructor"></iframe>
+                </div>
             </div>
-<!--            <img src="assets/footer/map.png" alt="map" class="map"/>-->
             <div class="info">
                 <div class="contacts">
                     <div class="title f-2" id="slide5_title_1"></div>
                     <ul>
-                        <li>
+                        <li id="footer-user">
                             <div class="logo-wrapper">
                                 <img src="assets/footer/logo-user.png" alt="" class="logo abs-center" />
                             </div>
                             <div id="slide5_title_2" class="f-mx1"></div>
                         </li>
-                        <li>
+                        <li id="footer-call">
                             <div class="logo-wrapper">
                                 <img src="assets/footer/logo-call.png" alt="" class="logo abs-center" />
                             </div>
@@ -39,54 +41,55 @@ const footerContent = `
                 </div>
                 <div class="location">
                     <div class="title f-2" id="slide5_title_3"></div>
-                    <h4 id="slide5_title_4" class="f-mx1"></h4>
+                    <h4 id="slide5_title_4" class="text f-mx1"></h4>
                 </div>
             </div>
 `
 
 const footerContentMobile = `
     <div class="contacts-m">
-                <div class="title-m" id="slide5_title_1">
-                    Контакты
+        <div class="title-m f-2" id="slide5_title_1">
+            Контакты
+        </div>
+        <ul>
+            <li id="footer-user">
+                <div class="logo-wrapper">
+                    <img src="assets/footer/logo-user.png" alt="" class="logo abs-center" />
                 </div>
-                <ul>
-                    <li>
-                        <div class="logo-wrapper">
-                            <img src="assets/footer/logo-user.png" alt="" class="logo abs-center" />
-                        </div>
-                        <div id="slide5_title_2"></div>
-                    </li>
-                    <li>
-                        <div class="logo-wrapper">
-                            <img src="assets/footer/logo-call.png" alt="" class="logo abs-center" />
-                        </div>
-                        <div id="slide5_title_5"></div>
-                    </li>
-                    <li>
-                        <div class="logo-wrapper">
-                            <img src="assets/footer/logo-email.png" alt="" class="logo abs-center" />
-                        </div>
-                        karbon.conf@gmail.com
-                    </li>
-                    <li>
-                        <div class="logo-wrapper">
-                            <img src="assets/footer/logo-tg.png" alt="" class="logo abs-center" />
-                        </div>
-                        @karb0n_ru
-                    </li>
-                </ul>
-            </div>
-            <div class="location-m">
-                 <div class="map-wrapper">
-                    <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Aeb0117ca2bbcf9e9d3ee8018721fb2d1fec2a662b21b93d3b4998e912575d30d&amp;source=constructor" frameborder="0"></iframe>            
-            </div>
-                <div class="info-m">
-                    <div class="title" id="slide5_title_3">Место проведения</div>
-                    <h5 id="slide5_title_4">Институт геологии и нефтегазовых технологий, КФУ
-                        Республика Татарстан, г. Казань, ул. Кремлевская 4/5</h5>
+                <div id="slide5_title_2"></div>
+            </li>
+            <li id="footer-call">
+                <div class="logo-wrapper">
+                    <img src="assets/footer/logo-call.png" alt="" class="logo abs-center" />
                 </div>
-            </div>
-            <div class="footer-line"></div>
+                <div id="slide5_title_5"></div>
+            </li>
+            <li>
+                <div class="logo-wrapper">
+                    <img src="assets/footer/logo-email.png" alt="" class="logo abs-center" />
+                </div>
+                karbon.conf@gmail.com
+            </li>
+            <li>
+                <div class="logo-wrapper">
+                    <img src="assets/footer/logo-tg.png" alt="" class="logo abs-center" />
+                </div>
+                @karb0n_ru
+            </li>
+        </ul>
+    </div>
+    <div class="location-m">
+        <div class="info-m">
+            <div class="title f-2" id="slide5_title_3">Место проведения</div>
+            <h5 id="slide5_title_4">Институт геологии и нефтегазовых технологий, КФУ
+                Республика Татарстан, г. Казань, ул. Кремлевская 4/5</h5>
+        </div>
+    </div>
+    <div class="map-wrapper-m">
+        <div class="map-container-m">
+            <iframe class="yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A1e6db94c8bf59d5b0f84cb462f2b3a686705fa9c7c61ca96faebaaf6245312ce&amp;source=constructor"></iframe>
+        </div>
+    </div>
 `
 
 

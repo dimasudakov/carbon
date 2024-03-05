@@ -39,6 +39,7 @@
             border-radius: 5vh;
             border: 2px solid rgba(159, 159, 159, 0.17);
             overflow: hidden;
+            position: relative;
 
             .header {
                 display: flex;
@@ -89,6 +90,15 @@
                 align-items: center;
                 color: white;
                 min-width: 350px;
+            }
+
+            .sign-up {
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%, 0%);
+                right: auto;
+                bottom: 3%;
+                cursor: pointer;
             }
         }
         

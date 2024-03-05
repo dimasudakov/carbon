@@ -8,11 +8,14 @@
     "slide1_action_3": "Become a participant",
     "slide1_action_4": "Subscribe to us",
     "slide1_action_5": "Abstract design template",
+    "slide1_become-participant": "Participate",
+
 
     "slide2_title_1": "Kazan (Volga Region) Federal University invites specialists to take part in the International Scientific and Practical Conference",
     "slide2_title_2": "«Carbonate sediments 2024»",
     "slide2_title_3": "The conference is held in order to identify the abilities of young researchers, students and specialists for research activities, to form project initiatives, to provide scientists and practitioners with the opportunity to freely exchange information and opinions on theory and practice in the field of geochemical studies of the properties of reservoir fluids and hydrodynamic modeling. The conference is a great opportunity for young researchers to present their scientific results, make working acquaintances and share knowledge.",
     "slide2_title_4": "There is still time before the start of the conference",
+    "slide2_sign-up": "Sign Up",
 
     "slide3_title_1": "Expert Council",
     "slide3_title_2": "Masagutov Rim",
@@ -53,6 +56,9 @@
     "slide4_title_20": "Carbonate reservoirs: development design and challenges. Well interventions, production, geological prospecting and exploration, pilot development planning, production drilling – minimizing uncertainties, how to work with carbonates, what are the differences from simple reservoirs",
     "slide4_title_21": "Modeling of auto-fracturing processes in carbonate reservoirs",
     "slide4_title_22": "Acid treatment designs",
+    "slide4_sign-up-1": "Sign Up",
+    "slide4_sign-up-2": "Sign Up",
+    "slide4_sign-up-3": "Sign Up",
 
     "slide5_title_1": "Contacts",
     "slide5_title_2": "--------------",
@@ -62,8 +68,8 @@
 
     "slide6_title_1": "Terms of participation",
     "slide6_title_2": "Participation is free for all types of participants!",
-    "slide6_title_3": "On the days of the conference, lunches and coffee breaks will be organized for all participants of the conference.",
-    "slide6_title_4": "Abstracts should be sent by e-mail. The participants will be selected based on the abstracts of the reports. The number of co-author delegates is limited",
+    "slide6_title_3": "On the days of the conference, coffee breaks will be organized for all participants of the conference.",
+    "slide6_title_4": "The participants will be selected based on the abstracts of the reports. The number of co-author delegates is limited",
     "slide6_title_5": "Participants pay their own transportation costs when moving.",
     "slide6_title_6": "The main hotel accommodation options that we recommend can be found here.",
 
@@ -108,11 +114,13 @@
     "slide1_action_3": "Стать участником",
     "slide1_action_4": "Присоединяйся к нам",
     "slide1_action_5": "Шаблон оформления тезисов",
+    "slide1_become-participant": "Принять участие",
 
     "slide2_title_1": "Казанский (Приволжский) федеральный университет приглашает специалистов принять участие в Международной научно-практической конференции",
     "slide2_title_2": "«Карбонатные отложения 2024»",
     "slide2_title_3": "Конференция проводится в целях выявления способностей молодых исследователей, к научно-исследовательской деятельности, формирования проектных инициатив, предоставления ученым, практикующим специалистам возможности свободного обмена информацией и мнениями по теории и практике в области петрофизических исследований свойств пластовых флюидов и разработки карбонатных месторождений. Конференция является прекрасной возможностью для молодых исследователей представить свои научные результаты, завести рабочие знакомства и обменяться знаниями.",
     "slide2_title_4": "До начала конференции осталось",
+    "slide2_sign-up": "Зарегистрироваться",
 
     "slide3_title_1": "Эксперты со всей России",
     "slide3_title_2": "Масагутов Рим Хакимович",
@@ -153,6 +161,9 @@
     "slide4_title_20": "Разработка карбонатных коллекторов. Проектирование разработки и сложности. ГТМ, добыча пгрр, опр, эб – снятие неопределенностей, как работать с карбонатами, в чем отличия от простых коллекторов",
     "slide4_title_21": "Моделирование процессов автоГРП в карбонатных коллекторах",
     "slide4_title_22": "Дизайн соляно-кислотных обработок",
+    "slide4_sign-up-1": "Зарегистрироваться",
+    "slide4_sign-up-2": "Зарегистрироваться",
+    "slide4_sign-up-3": "Зарегистрироваться",
 
     "slide5_title_1": "Контакты",
     "slide5_title_2": "Семенова Алия Аликовна",
@@ -162,8 +173,8 @@
 
     "slide6_title_1": "Условия участия",
     "slide6_title_2": "Участие бесплатное для всех типов участников!",
-    "slide6_title_3": "В дни проведения конференции для всех участников конференции будут организованы обеды и кофе-брейки.",
-    "slide6_title_4": "Тезисы докладов отправлять на почту. Участники будут отобраны на основе тезисов докладов. Количество делегатов-соавторов ограничено",
+    "slide6_title_3": "В дни проведения конференции для всех участников конференции будут организованы кофе-брейки.",
+    "slide6_title_4": "Участники будут отобраны на основе тезисов докладов. Количество делегатов-соавторов ограничено",
     "slide6_title_5": "Участники самостоятельно оплачивают транспортные расходы при переезде.",
     "slide6_title_6": "Основные варианты размещения в отелях, которые мы рекомендуем, можно найти здесь.",
 

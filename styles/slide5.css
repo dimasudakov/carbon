@@ -27,15 +27,13 @@
         position: relative;
     }
     .download-doc {
-        position: absolute;
-        right: 100px;
         background: var(--linear-gradient-1);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        top: 65px;
-        font-size: 12px;
         z-index: 10001;
         cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
     
     @media screen and (max-width: 900px) {
@@ -78,6 +76,8 @@
                 margin-top: 5vh;
                 text-align: center;
                 font-size: 12px;
+                position: relative;
+                z-index: 100000;
             }
         }
     }
@@ -86,6 +86,7 @@
         .payload {
             flex-direction: column;
             gap: 20px;
+            margin-top: 10px;
             .item {
                 flex-direction: row;
                 width: 100%;

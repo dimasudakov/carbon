@@ -2,8 +2,7 @@
 const slide5 = document.getElementById('slide5')
 
 const slide5Content = `
-            <div class="title f-3" id="slide6_title_1">        
-            </div>
+            <div class="title f-3" id="slide6_title_1"></div>
             <div class="download-doc f-mx1" id="download-doc"></div>    
             
             <div class="payload">

@@ -97,10 +97,15 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        flex-direction: column;
         width: 100%;
         gap: 2vh;
         flex-wrap: wrap;
         margin: 4vh 0;
+
+        .sign-up {
+            cursor: pointer;
+        }
 
         .title {
             display: flex;

@@ -1,6 +1,6 @@
 let langButton = document.getElementById('langButton')
 
-let currentLang = localStorage.getItem("language") || "Ru";
+let currentLang = localStorage.getItem("languageKarbon") || "En";
 let translations
 
 langButton.addEventListener('click', handleChangeLanguage)
@@ -8,11 +8,11 @@ langButton.addEventListener('click', handleChangeLanguage)
 function handleChangeLanguage() {
     if(currentLang === "Ru") {
         currentLang = "En"
-        localStorage.setItem("language", "Ru");
+        localStorage.setItem("languageKarbon", "En");
         changePageLang()
     } else {
         currentLang = "Ru"
-        localStorage.setItem("language", "Ru");
+        localStorage.setItem("languageKarbon", "Ru");
         changePageLang()
     }
 }
@@ -26,6 +26,14 @@ function changePageLang() {
         if(el) {
             el.innerText = translations[currentLang][key];
         }
+    }
+    
+    if (currentLang === "En") {
+        document.getElementById('footer-user').style.display = 'none';
+        document.getElementById('footer-call').style.display = 'none';
+    } else {
+        document.getElementById('footer-user').style.display = 'flex';
+        document.getElementById('footer-call').style.display = 'flex';
     }
     
     document.getElementById('tag1').src = "assets/slide2/" + currentLang.toLowerCase() + "-tag1.png"

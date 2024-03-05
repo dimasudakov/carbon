@@ -14,6 +14,7 @@ body {
     background-color: var(--background-color);
     position: relative
 }
+
 .parallax__layer {
     position: absolute;
     top: 0;
@@ -21,6 +22,7 @@ body {
     bottom: 0;
     left: 0;
 }
+
 .parallax__layer--base {
     transform: translateZ(0);
 }
@@ -38,7 +40,7 @@ body {
 }
 
 .parallax__layer--back {
-    transform: translateZ(-1px) ;
+    transform: translateZ(-1px);
 }
 
 .parallax__group {
@@ -47,17 +49,32 @@ body {
     transform-style: preserve-3d;
 }
 
-.backtop {
+.backtop-wrapper {
     display: none;
     position: sticky;
     left: 90%;
-    bottom: 5%;
+    top: 90%;
     z-index: 100000000;
-    cursor: pointer;
-}
-@media screen and (max-width: 760px) {
+    height: 0;
+    width: 0;
+
     .backtop {
-        left:  80%;
+        position: absolute;
+        width: 40px;
+        height: 40px;
     }
 }
+
+@media screen and (max-width: 760px) {
+    .backtop-wrapper {
+        left: 80%;
+    }
+}
+
+.gradient {
+    background: var(--linear-gradient-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 

@@ -19,32 +19,44 @@
     <link rel="stylesheet" href="styles/scrollbar.css">
     <link rel="stylesheet" href="styles/font-sz.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="icon" href="assets/link-logo.jpg">
 
     <title>Karbon</title>
 
-<!--    <link rel="image_src" href="assets/header/logo.png">-->
+    <!--    <link rel="image_src" href="assets/header/logo.png">-->
     <meta property="og:locale" content="ru_RU">
     <meta property="og:site_name" content="Karbon">
     <meta property="og:title" content="Международная научно-практическая конференция Карбонатные отложения">
     <meta property="og:description" content="14-16 августа 2024г. Казань">
     <meta property="og:image" content="assets/link-logo.jpg">
+    <meta property="vk:image" content="assets/vk-image.jpg"/>
 
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();
-            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) {
+                if (document.scripts[j].src === r) {
+                    return;
+                }
+            }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
         ym(96644702, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/96644702" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/96644702" style="position:absolute; left:-9999px;" alt=""/></div>
+    </noscript>
     <!-- /Yandex.Metrika counter -->
 
 </head>
@@ -54,6 +66,10 @@
 <div id="mobile-nav-bar"></div>
 
 <div id="parallax" class="parallax">
+    <div class="backtop-wrapper" id="backtop">
+        <img  class="backtop" src="assets/backtop.svg" alt=""/>
+    </div>
+
     <div id="group1" class="parallax__group-1">
         <div class="parallax__layer parallax__layer--base parallax-padding slide1">
             <div class="payload">
@@ -62,11 +78,12 @@
                     <h2 id="slide1_title_2" class="f-3 mr-2"></h2>
                     <div class="divider"></div>
                     <h5 id="slide1_title_3" class="f-1 mr-1"></h5>
+                    <div id="slide1_become-participant" class="become-participant f-mx1 gradient">Принять участие</div>
                 </div>
                 <div class="actions">
                     <div class="actions-btn f-mx1" id="slide1_action_1"></div>
                     <div class="actions-btn f-mx1" id="slide1_action_2"></div>
-                    <div class="actions-btn f-mx1" id="slide1_action_3"></div>
+                    <div class="actions-btn f-mx1 become-participant-action" id="slide1_action_3"></div>
                     <div class="actions-btn f-mx1" id="slide1_action_4"></div>
                     <div class="actions-btn f-mx1" id="slide1_action_5"></div>
                 </div>
@@ -96,6 +113,7 @@
                         <div id="timebar-small">
                             <script src="//megatimer.ru/get/401c1e573525e90fd43dd023fdf4bbcf.js"></script>
                         </div>
+                        <div id="slide2_sign-up" class="sign-up gradient f-mx1">dsaf</div>
                     </div>
                 </div>
                 <div class="right">
@@ -110,55 +128,55 @@
     </div>
 
 
-<!--    <div id="group3" class="parallax__group-3">-->
-<!--        <div class="slide3">-->
-<!--            <div class="title"><h1 id="slide3_title_1"></h1></div>-->
-<!--            <div class="persons">-->
-<!--                <div class="person-container">-->
-<!--                    <div class="image-wrapper">-->
-<!--                        <img src="./assets/slide3/person1.png" alt="person1" class="image abs-center">-->
-<!--                        <img id="stroke" src="./assets/slide3/stroke.svg" alt="" class="stroke abs-center">-->
-<!--                    </div>-->
-<!--                    <div class="description">-->
-<!--                        <h4 id="slide3_title_2"></h4>-->
-<!--                        <h5 id="slide3_title_3"></h5>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="person-container">-->
-<!--                    <div class="image-wrapper">-->
-<!--                        <img src="./assets/slide3/person2.png" alt="person2" class="image abs-center">-->
-<!--                        <img src="./assets/slide3/stroke.svg" alt="" class="stroke abs-center">-->
-<!--                    </div>-->
-<!--                    <div class="description">-->
-<!--                        <h4 id="slide3_title_4"></h4>-->
-<!--                        <h5 id="slide3_title_5"></h5>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="person-container">-->
-<!--                    <div class="image-wrapper">-->
-<!--                        <img src="./assets/slide3/person3.png" alt="person3" class="image abs-center">-->
-<!--                        <img src="./assets/slide3/stroke.svg" alt="" class="stroke abs-center">-->
-<!--                    </div>-->
-<!--                    <div class="description">-->
-<!--                        <h4 id="slide3_title_6"></h4>-->
-<!--                        <h5 id="slide3_title_7"></h5>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="person-container">-->
-<!--                    <div class="image-wrapper">-->
-<!--                        <img src="./assets/slide3/person3.png" alt="person3" class="image abs-center">-->
-<!--                        <img src="./assets/slide3/stroke.svg" alt="" class="stroke abs-center">-->
-<!--                    </div>-->
-<!--                    <div class="description">-->
-<!--                        <h4 id="slide3_title_8"></h4>-->
-<!--                        <h5 id="slide3_title_9"></h5>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <img class="background-line-3-1" src="./assets/slide3/line1.svg" alt="line1"/>-->
-<!--        <img class="background-line-3-2" src="./assets/slide3/line2.svg" alt="line2"/>-->
-<!--    </div>-->
+    <!--    <div id="group3" class="parallax__group-3">-->
+    <!--        <div class="slide3">-->
+    <!--            <div class="title"><h1 id="slide3_title_1"></h1></div>-->
+    <!--            <div class="persons">-->
+    <!--                <div class="person-container">-->
+    <!--                    <div class="image-wrapper">-->
+    <!--                        <img src="./assets/slide3/person1.png" alt="person1" class="image abs-center">-->
+    <!--                        <img id="stroke" src="./assets/slide3/stroke.svg" alt="" class="stroke abs-center">-->
+    <!--                    </div>-->
+    <!--                    <div class="description">-->
+    <!--                        <h4 id="slide3_title_2"></h4>-->
+    <!--                        <h5 id="slide3_title_3"></h5>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--                <div class="person-container">-->
+    <!--                    <div class="image-wrapper">-->
+    <!--                        <img src="./assets/slide3/person2.png" alt="person2" class="image abs-center">-->
+    <!--                        <img src="./assets/slide3/stroke.svg" alt="" class="stroke abs-center">-->
+    <!--                    </div>-->
+    <!--                    <div class="description">-->
+    <!--                        <h4 id="slide3_title_4"></h4>-->
+    <!--                        <h5 id="slide3_title_5"></h5>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--                <div class="person-container">-->
+    <!--                    <div class="image-wrapper">-->
+    <!--                        <img src="./assets/slide3/person3.png" alt="person3" class="image abs-center">-->
+    <!--                        <img src="./assets/slide3/stroke.svg" alt="" class="stroke abs-center">-->
+    <!--                    </div>-->
+    <!--                    <div class="description">-->
+    <!--                        <h4 id="slide3_title_6"></h4>-->
+    <!--                        <h5 id="slide3_title_7"></h5>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--                <div class="person-container">-->
+    <!--                    <div class="image-wrapper">-->
+    <!--                        <img src="./assets/slide3/person3.png" alt="person3" class="image abs-center">-->
+    <!--                        <img src="./assets/slide3/stroke.svg" alt="" class="stroke abs-center">-->
+    <!--                    </div>-->
+    <!--                    <div class="description">-->
+    <!--                        <h4 id="slide3_title_8"></h4>-->
+    <!--                        <h5 id="slide3_title_9"></h5>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <img class="background-line-3-1" src="./assets/slide3/line1.svg" alt="line1"/>-->
+    <!--        <img class="background-line-3-2" src="./assets/slide3/line2.svg" alt="line2"/>-->
+    <!--    </div>-->
 
     <div class="wrapper">
         <div class="shadow"></div>
@@ -183,16 +201,17 @@
                     <a href="https://ntc.gazprom-neft.ru/ " target="_blank">
                         <img src="assets/loop-strip/ru-gasprom.svg" alt="gasprom" id="gasprom" class="logo">
                     </a>
-<!--                    <a href="https://www.rosneft.ru/" target="_blank">-->
-<!--                        <img src="assets/loop-strip/ru-rosneft.svg" alt="rosneft" id="rosneft" class="logo">-->
-<!--                    </a>-->
+                    <!--                    <a href="https://www.rosneft.ru/" target="_blank">-->
+                    <!--                        <img src="assets/loop-strip/ru-rosneft.svg" alt="rosneft" id="rosneft" class="logo">-->
+                    <!--                    </a>-->
                 </div>
             </div>
             <div class="loop-group">
                 <div class="title f-mx1" id="line_title_3"></div>
                 <div class="logo-container">
                     <a href="https://geors.ru/" target="_blank">
-                        <img src="assets/loop-strip/ru-georesources.svg" alt="georesources" id="georesources" class="logo">
+                        <img src="assets/loop-strip/ru-georesources.svg" alt="georesources" id="georesources"
+                             class="logo">
                     </a>
                 </div>
             </div>
@@ -218,16 +237,17 @@
                     <a href="https://ntc.gazprom-neft.ru/ " target="_blank">
                         <img src="assets/loop-strip/ru-gasprom.svg" alt="gasprom" id="gasprom2" class="logo">
                     </a>
-<!--                    <a href="https://www.rosneft.ru/" target="_blank">-->
-<!--                        <img src="assets/loop-strip/ru-rosneft.svg" alt="rosneft" id="rosneft2" class="logo">-->
-<!--                    </a>-->
+                    <!--                    <a href="https://www.rosneft.ru/" target="_blank">-->
+                    <!--                        <img src="assets/loop-strip/ru-rosneft.svg" alt="rosneft" id="rosneft2" class="logo">-->
+                    <!--                    </a>-->
                 </div>
             </div>
             <div class="loop-group">
                 <div class="title f-mx1" id="line_title_6"></div>
                 <div class="logo-container">
                     <a href="https://geors.ru/" target="_blank">
-                        <img src="assets/loop-strip/ru-georesources.svg" alt="georesources" id="georesources2" class="logo">
+                        <img src="assets/loop-strip/ru-georesources.svg" alt="georesources" id="georesources2"
+                             class="logo">
                     </a>
                 </div>
             </div>
@@ -255,6 +275,7 @@
                             <p id="slide4_title_10" class="f-mx1"></p>
                         </div>
                     </div>
+                    <div id="slide4_sign-up-1" class="sign-up f-mx1 gradient">Зарегистрироваться</div>
                 </div>
             </div>
 
@@ -275,6 +296,7 @@
                             <p id="slide4_title_18" class="f-mx1"></p>
                         </div>
                     </div>
+                    <div id="slide4_sign-up-2" class="sign-up f-mx1 gradient">Зарегистрироваться</div>
                 </div>
             </div>
 
@@ -291,6 +313,7 @@
                             <p id="slide4_title_22" class="f-mx1"></p>
                         </div>
                     </div>
+                    <div id="slide4_sign-up-3" class="sign-up f-mx1 gradient">Зарегистрироваться</div>
                 </div>
             </div>
         </div>
@@ -307,7 +330,7 @@
             <!--      terms.js      -->
         </div>
 
-        <img src="assets/background/shell-bottom.png" alt="" class="shell-bottom" />
+        <img src="assets/background/shell-bottom.png" alt="" class="shell-bottom"/>
     </div>
 
     <div id="group6" class="parallax__group-6">
@@ -315,9 +338,8 @@
             <!--      footer.js      -->
         </div>
     </div>
-
-    <img id="backtop" class="backtop" src="assets/backtop.svg" alt="backtop"/>
 </div>
+
 
 <script type="text/javascript" src="./js/header/header.js"></script>
 <script type="text/javascript" src="./js/header/navbar.js"></script>

@@ -6,19 +6,39 @@ let prevWindowWidth = -1
 
 function updateHeader() {
     const bigHeader = `
-    <img src="" alt="" class="header-logo-big" id="header-logo">
-    <a class="header-item f-mx1" href="#" id="navbar_title_2"></a>
-    <a class="header-item f-mx1" href="#" id="navbar_title_3"></a>
-    <a class="header-item f-mx1" href="#" id="navbar_title_4"></a>
-    <a class="header-item f-mx1" href="#" id="header_title_1"></a>
-    <a class="header-item f-mx1" href="#" id="header_title_2"></a>
-    <a class="header-item f-mx1 gradient relative" href="https://docs.google.com/forms/d/e/1FAIpQLScjIwM_fqLaUyaJCpZesMHfJPYK167f-lKuGipJBYgEXpsh0Q/viewform?usp=sf_link" id="header_title_3"></a>
-    <a class="header-item f-mx1" href="#" id="navbar_title_10"></a>
-    <a class="header-item f-mx1" id="langButton">Ru/Eng</a>
-    <div class="circle-container ml-50 circle-big">
-        <img src="assets/circle.svg" alt="tg" class="circle-background">
-        <img src="assets/tg-logo.svg" alt="tg" class="circle-logo" id="tg-link">
-    </div>
+        <img src="" alt="" class="header-logo-big" id="header-logo">
+        <div class="header-btn-wrapper">
+            <a class="header-item f-mx1" href="#" id="navbar_title_2"></a>
+        </div>
+        <div class="header-btn-wrapper">
+            <a class="header-item f-mx1" href="#" id="navbar_title_3"></a>
+        </div>
+        <div class="header-btn-wrapper">
+            <a class="header-item f-mx1" href="#" id="navbar_title_4"></a>
+        </div>
+        <div class="header-btn-wrapper">
+            <a class="header-item f-mx1" href="#" id="header_title_1"></a>
+        </div>
+        <div class="header-btn-wrapper">
+            <a class="header-item f-mx1" href="#" id="header_title_2"></a>
+        </div>
+        <div class="header-btn-wrapper">
+            <a class="header-item f-mx1 gradient-header relative" href="https://docs.google.com/forms/d/e/1FAIpQLScjIwM_fqLaUyaJCpZesMHfJPYK167f-lKuGipJBYgEXpsh0Q/viewform?usp=sf_link" id="header_title_3"></a>
+        </div>
+        <div class="header-btn-wrapper">
+            <a class="header-item f-mx1" href="#" id="navbar_title_10"></a>
+        </div>
+        <div class="header-btn-wrapper">
+            <a class="header-item f-mx1" id="langButton">
+                <span id="ru-lang-header" style="font-weight: bold;">Ru</span>
+                /
+                <span id="en-lang-header" style="font-weight: bold;">Eng</span>
+            </a>
+        </div>
+        <div class="circle-container ml-50 circle-big">
+            <img src="assets/circle.svg" alt="tg" class="circle-background">
+            <img src="assets/tg-logo.svg" alt="tg" class="circle-logo" id="tg-link">
+        </div>
   `;
 
     const mobileHeader = `

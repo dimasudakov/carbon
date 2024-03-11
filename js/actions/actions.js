@@ -25,27 +25,6 @@ document.getElementById('slide1_action_3').addEventListener('click', function() 
     window.location.href = signUpLing;
 });
 
-document.getElementById('slide1_become-participant').addEventListener('click', function() {
-    window.location.href = signUpLing;
-});
-
-document.getElementById('slide4_sign-up-1').addEventListener('click', function() {
-    window.location.href = signUpLing;
-});
-
-document.getElementById('slide4_sign-up-2').addEventListener('click', function() {
-    window.location.href = signUpLing;
-});
-
-document.getElementById('slide4_sign-up-3').addEventListener('click', function() {
-    window.location.href = signUpLing;
-});
-
-document.getElementById('slide2_sign-up').addEventListener('click', function() {
-    window.location.href = signUpLing;
-});
-
-
 document.getElementById('slide1_action_4').addEventListener('click', function() {
     var url = 'https://t.me/karb0n_ru';
 

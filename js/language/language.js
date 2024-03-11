@@ -31,9 +31,15 @@ function changePageLang() {
     if (currentLang === "En") {
         document.getElementById('footer-user').style.display = 'none';
         document.getElementById('footer-call').style.display = 'none';
+        
+        document.getElementById('ru-lang-header').style.fontWeight = 'normal'
+        document.getElementById('en-lang-header').style.fontWeight = 'bold'
     } else {
         document.getElementById('footer-user').style.display = 'flex';
         document.getElementById('footer-call').style.display = 'flex';
+
+        document.getElementById('ru-lang-header').style.fontWeight = 'bold'
+        document.getElementById('en-lang-header').style.fontWeight = 'normal'
     }
     
     document.getElementById('tag1').src = "assets/slide2/" + currentLang.toLowerCase() + "-tag1.png"
@@ -41,19 +47,19 @@ function changePageLang() {
     document.getElementById('tag3').src = "assets/slide2/" + currentLang.toLowerCase() + "-tag3.png"
     document.getElementById('tag4').src = "assets/slide2/" + currentLang.toLowerCase() + "-tag4.png"
     
-    document.getElementById('kpfu').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-kpfu.svg"
-    document.getElementById('planet').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-planet.svg"
-    document.getElementById('tatneft').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-tatneft.svg"
-    document.getElementById('gasprom').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-gasprom.svg"
-    // document.getElementById('rosneft').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-rosneft.svg"
-    document.getElementById('georesources').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-georesources.svg"
+    document.getElementById('kpfu').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-kpfu.png"
+    document.getElementById('planet').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-planet.png"
+    document.getElementById('tatneft').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-tatneft.png"
+    document.getElementById('gasprom').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-gasprom.png"
+    document.getElementById('rosneft').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-rosneft.png"
+    document.getElementById('georesources').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-georesources.png"
 
-    document.getElementById('kpfu2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-kpfu.svg"
-    document.getElementById('planet2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-planet.svg"
-    document.getElementById('tatneft2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-tatneft.svg"
-    document.getElementById('gasprom2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-gasprom.svg"
-    // document.getElementById('rosneft2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-rosneft.svg"
-    document.getElementById('georesources2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-georesources.svg"
+    document.getElementById('kpfu2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-kpfu.png"
+    document.getElementById('planet2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-planet.png"
+    document.getElementById('tatneft2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-tatneft.png"
+    document.getElementById('gasprom2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-gasprom.png"
+    document.getElementById('rosneft2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-rosneft.png"
+    document.getElementById('georesources2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-georesources.png"
     
     document.getElementById('header-logo').src = "assets/header/" + currentLang.toLowerCase() + "-logo.svg"
 }   

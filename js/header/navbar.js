@@ -40,7 +40,11 @@ const content = `
             </li>
         </ul>
         <div class="lang ml-30 navbar-action" id="langButton">
-            Ru / Eng
+            <a class="header-item f-mx1" id="langButton">
+                <span id="ru-lang-header" style="font-weight: bold;">Ru</span>
+                /
+                <span id="en-lang-header" style="font-weight: bold;">Eng</span>
+            </a>
         </div>
     </div>
 `

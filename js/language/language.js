@@ -6,7 +6,7 @@ let translations
 langButton.addEventListener('click', handleChangeLanguage)
 
 function handleChangeLanguage() {
-    if(currentLang === "Ru") {
+    if (currentLang === "Ru") {
         currentLang = "En"
         localStorage.setItem("languageKarbon", "En");
         changePageLang()
@@ -23,46 +23,62 @@ function changePageLang() {
     }
     for (const key in translations[currentLang]) {
         const el = document.getElementById(key)
-        if(el) {
+        if (el) {
             el.innerText = translations[currentLang][key];
         }
     }
-    
+
     if (currentLang === "En") {
-        document.getElementById('footer-user').style.display = 'none';
-        document.getElementById('footer-call').style.display = 'none';
-        
-        document.getElementById('ru-lang-header').style.fontWeight = 'normal'
-        document.getElementById('en-lang-header').style.fontWeight = 'bold'
+        if (document.getElementById('footer-user')) {
+            document.getElementById('footer-user').style.display = 'none';
+        }
+        if (document.getElementById('footer-call')) {
+            document.getElementById('footer-call').style.display = 'none';
+        }
+
+        if (document.getElementById('ru-lang-header')) {
+            document.getElementById('ru-lang-header').style.fontWeight = 'normal'
+        }
+        if (document.getElementById('en-lang-header')) {
+            document.getElementById('en-lang-header').style.fontWeight = 'bold'
+        }
     } else {
-        document.getElementById('footer-user').style.display = 'flex';
-        document.getElementById('footer-call').style.display = 'flex';
+        if (document.getElementById('footer-user')) {
+            document.getElementById('footer-user').style.display = 'flex';
+        }
+        if (document.getElementById('footer-call')) {
+            document.getElementById('footer-call').style.display = 'flex';
+        }
 
-        document.getElementById('ru-lang-header').style.fontWeight = 'bold'
-        document.getElementById('en-lang-header').style.fontWeight = 'normal'
+        if (document.getElementById('ru-lang-header')) {
+            document.getElementById('ru-lang-header').style.fontWeight = 'bold'
+        }
+        if (document.getElementById('en-lang-header')) {
+            document.getElementById('en-lang-header').style.fontWeight = 'normal'
+        }
     }
-    
-    document.getElementById('tag1').src = "assets/slide2/" + currentLang.toLowerCase() + "-tag1.png"
-    document.getElementById('tag2').src = "assets/slide2/" + currentLang.toLowerCase() + "-tag2.png"
-    document.getElementById('tag3').src = "assets/slide2/" + currentLang.toLowerCase() + "-tag3.png"
-    document.getElementById('tag4').src = "assets/slide2/" + currentLang.toLowerCase() + "-tag4.png"
-    
-    document.getElementById('kpfu').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-kpfu.png"
-    document.getElementById('planet').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-planet.png"
-    document.getElementById('tatneft').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-tatneft.png"
-    document.getElementById('gasprom').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-gasprom.png"
-    document.getElementById('rosneft').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-rosneft.png"
-    document.getElementById('georesources').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-georesources.png"
 
-    document.getElementById('kpfu2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-kpfu.png"
-    document.getElementById('planet2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-planet.png"
-    document.getElementById('tatneft2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-tatneft.png"
-    document.getElementById('gasprom2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-gasprom.png"
-    document.getElementById('rosneft2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-rosneft.png"
-    document.getElementById('georesources2').src = "assets/loop-strip/" + currentLang.toLowerCase() + "-georesources.png"
-    
-    document.getElementById('header-logo').src = "assets/header/" + currentLang.toLowerCase() + "-logo.svg"
-}   
+    changePicture("tag1", "assets/slide2/", "-tag1.png")
+    changePicture("tag2", "assets/slide2/", "-tag2.png")
+    changePicture("tag3", "assets/slide2/", "-tag3.png")
+    changePicture("tag4", "assets/slide2/", "-tag4.png")
+
+    changePicture("kpfu", "assets/loop-strip/", "-kpfu.png")
+    changePicture("planet", "assets/loop-strip/", "-planet.png")
+    changePicture("tatneft", "assets/loop-strip/", "-tatneft.png")
+    changePicture("gasprom", "assets/loop-strip/", "-gasprom.png")
+    changePicture("rosneft", "assets/loop-strip/", "-rosneft.png")
+    changePicture("georesources", "assets/loop-strip/", "-georesources.png")
+
+    changePicture("kpfu2", "assets/loop-strip/", "-kpfu.png")
+    changePicture("planet2", "assets/loop-strip/", "-planet.png")
+    changePicture("tatneft2", "assets/loop-strip/", "-tatneft.png")
+    changePicture("gasprom2", "assets/loop-strip/", "-gasprom.png")
+    changePicture("rosneft2", "assets/loop-strip/", "-rosneft.png")
+    changePicture("georesources2", "assets/loop-strip/", "-georesources.png")
+
+    changePicture("header-logo", "assets/header/", "-logo.svg")
+}
 
 function loadTranslations() {
     var xhr = new XMLHttpRequest();
@@ -77,7 +93,7 @@ function loadTranslations() {
 }
 
 changePageLang()
-    
+
 
 // для мобильной версии и компьютерной используются разные кнопки с одинаковым id
 addEventListener('resize', () => {
@@ -85,3 +101,9 @@ addEventListener('resize', () => {
     langButton = document.getElementById('langButton')
     langButton.addEventListener('click', handleChangeLanguage)
 })
+
+function changePicture(id, pathPrefix, name) {
+    if(document.getElementById(id)) {
+        document.getElementById(id).src = pathPrefix + currentLang.toLowerCase() + name
+    }
+}

@@ -40,8 +40,8 @@ const slide5Content = `
                     <div class="logo-wrapper">
                         <img src="assets/slide5/logo5.png" alt="" class="logo abs-center">
                     </div>
-                    <div class="info f-mx0_8" id="slide6_title_6">
-                        
+                    <div class="info f-mx0_8">
+                        <span id="slide6_title_6"></span>
                     </div>
                 </div>
             </div>

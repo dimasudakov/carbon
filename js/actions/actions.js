@@ -48,11 +48,25 @@ document.getElementById('slide1_action_5').addEventListener('click', function() 
 });
 
 document.getElementById('download-doc').addEventListener('click', function() {
-    var path = '/docs/reglament.pdf';
+    var path = '/docs/terms_2024.pdf';
 
     var link = document.createElement('a');
     link.href = path;
-    link.download = 'reglament.pdf';
+    link.download = 'Правила и условия подачи на Karbon2024.pdf';
+    link.target = '_blank';
+
+    document.body.appendChild(link);
+    link.click();
+
+    document.body.removeChild(link);
+});
+
+document.getElementById('slide6_title_6').addEventListener('click', function() {
+    var path = '/docs/отели 2024.pdf';
+
+    var link = document.createElement('a');
+    link.href = path;
+    link.download = 'отели 2024.pdf';
     link.target = '_blank';
 
     document.body.appendChild(link);

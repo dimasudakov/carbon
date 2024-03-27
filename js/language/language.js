@@ -1,6 +1,6 @@
 let langButton = document.getElementById('langButton')
 
-let currentLang = localStorage.getItem("languageKarbon") || "En";
+let currentLang = localStorage.getItem("languageKarbon") || "Ru";
 let translations
 
 langButton.addEventListener('click', handleChangeLanguage)
@@ -24,7 +24,7 @@ function changePageLang() {
     for (const key in translations[currentLang]) {
         const el = document.getElementById(key)
         if (el) {
-            el.innerText = translations[currentLang][key];
+            el.innerHTML = translations[currentLang][key];
         }
     }
 

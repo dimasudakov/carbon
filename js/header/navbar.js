@@ -3,28 +3,36 @@ const navbar = document.getElementById('mobile-nav-bar')
 const content = `
 <div class="content">
         <ul>
-            <li class="navbar-action" id="navbar_title_1_m">
+            <li class="navbar-action">
+                <span id="navbar_title_1_m"></span>
                 <img src="assets/header/home.svg" alt="" class="li-logo" />
             </li>
-            <li class="ml-30 navbar-action" id="navbar_title_2_m">
+            <li class="ml-30 navbar-action">
+                <span id="navbar_title_2_m"></span>
                 <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
             </li>
-            <li class="ml-30 navbar-action" id="navbar_title_3_m">
+            <li class="ml-30 navbar-action">
+                <span id="navbar_title_3_m"></span>
                 <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
             </li>
-            <li class="ml-30 navbar-action" id="navbar_title_4_m">
+            <li class="ml-30 navbar-action">
+                <span id="navbar_title_4_m"></span>
                 <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
             </li>
-            <li class="ml-30 navbar-action" id="navbar_title_5_m">
+            <li class="ml-30 navbar-action">
+                <span id="navbar_title_5_m"></span>
                 <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
             </li>
-            <li class="ml-30 navbar-action" id="navbar_title_6_m">
+            <li class="ml-30 navbar-action">
+                <span id="navbar_title_6_m"></span>
                 <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
             </li>
-            <li class="ml-30 navbar-action" id="navbar_title_7_m">
+            <li class="ml-30 navbar-action">
+                <span id="navbar_title_7_m"></span>
                 <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
             </li>
-            <li class="ml-30 navbar-action" id="navbar_title_8_m">
+            <li class="ml-30 navbar-action">
+                <span id="navbar_title_8_m"></span>
                 <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
             </li>
             <li class="ml-30 navbar-action">
@@ -35,7 +43,8 @@ const content = `
                 <div id="navbar_title_9_m"></div>
                 <img src="assets/header/arrow-right.svg" alt="ar" class="li-logo" />
             </li>
-            <li class="pl-30 navbar-action" id="navbar_title_10_m">
+            <li class="pl-30 navbar-action">
+                <span id="navbar_title_10_m"></span>
                 <img src="assets/header/arrow-right.svg" alt="ar" class="li-logo" />
             </li>
         </ul>

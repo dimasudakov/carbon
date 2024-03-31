@@ -74,7 +74,10 @@ const footerContentMobile = `
                 <div class="logo-wrapper">
                     <img src="assets/footer/logo-tg.png" alt="" class="logo abs-center" />
                 </div>
-                @karb0n_ru
+                <a href="https://t.me/karb0n_ru" style="color: white;">
+                     @karb0n_ru
+                </a>
+                
             </li>
         </ul>
     </div>

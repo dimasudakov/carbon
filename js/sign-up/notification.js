@@ -10,16 +10,24 @@ notificationCloseButton.addEventListener('click', () => {
 })
 
 function showNotification() {
-    notification.style.left = rootStyles.getPropertyValue('--left-offset');
+    if (window.innerWidth < 600) {
+        notification.style.opacity = "1";
+    } else {
+        notification.style.left = rootStyles.getPropertyValue('--left-offset');
+    }
     notificationCloseTimer = setTimeout(() => {
         closeNotification()
     }, 5000)
 }
 
 function closeNotification() {
-    notification.style.left = '100vw';
+    if (window.innerWidth < 600) {
+        notification.style.opacity = "0";
+    } else {
+        notification.style.left = '100vw';
+    }
     clearTimeout(notificationCloseTimer)
-    
+
     setTimeout(() => {
         notificationContent.innerText = ""
     }, 300)

@@ -1,4 +1,4 @@
-
+/*если меняем то поменять еще в notification.js*/
 :root {
     --notification-height: max(150px, 19vh);
     --notification-width: max(250px, 25vw);
@@ -17,7 +17,7 @@
     border-radius: calc(0.1 * var(--notification-height));
     color: white;
     padding: var(--notification-padding);
-    transition: left 0.3s ease;
+    transition: left 0.3s ease, opacity 0.3s ease;
 
     .close-button {
         position: absolute;
@@ -36,9 +36,9 @@
 }
 
 
-/* для узких экранов отдельное окно */
-/*@media screen and (max-width: 600px) {*/
-/*    .notification {*/
-/*        display: none;*/
-/*    }*/
-/*}*/
+@media screen and (max-width: 600px) {
+    .notification {
+        left: var(--left-offset);
+        opacity: 0;
+    }
+}

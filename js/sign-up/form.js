@@ -5,16 +5,24 @@ signUpButton.addEventListener('click', () => {
 })
 
 async function handleSignUpClick() {
-    const userData = getUser()
-    const validationMessage = validateUserData(userData)
-    if (validationMessage !== '') {
-        setUpNotificationMessage(validationMessage)
+    const signUpButtonText = signUpButton.textContent
+    signUpButton.style.minWidth = signUpButton.offsetWidth.toString() + "px";
+    signUpButton.innerHTML = "<img src=\"assets/loading-animation.svg\" alt=\"\" class=\"loading\">";
+    
+    const defer = function (notificationMsg) {
+        setUpNotificationMessage(notificationMsg)
         showNotification()
+        signUpButton.textContent = signUpButtonText
+        signUpButton.style.minWidth = "unset"
+    }
+    const userData = getUser()
+    const validationMessage = await validateUserData(userData)
+    if (validationMessage !== '') {
+        defer(validationMessage)
         return;
     }
     const response = await sendRequest(userData)
-    setUpNotificationMessage(response)
-    showNotification()
+    defer(response)
 }
 
 
@@ -79,7 +87,7 @@ function validateEmail(email) {
     return emailRegex.test(email);
 }
 
-function validateUserData(userData) {
+async function validateUserData(userData) {
     if(userData.fio === '') {
         return "Заполните ФИО"
     }
@@ -99,4 +107,8 @@ function validateUserData(userData) {
         return "Загрузите тезис своей работы"
     }
     return ""
+}
+
+function wait(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }

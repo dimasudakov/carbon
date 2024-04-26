@@ -1,4 +1,4 @@
-const REGISTER_PATH = "https://registration.karb0n.ru/api/register"
+const REGISTER_PATH = "https://registration.karb0n.ru/api/register/"
 
 signUpButton.addEventListener('click', () => {
     handleSignUpClick().then(r => {})

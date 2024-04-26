@@ -1,14 +1,15 @@
 const REGISTER_PATH = "https://registration.karb0n.ru/api/register/"
 
 signUpButton.addEventListener('click', () => {
-    handleSignUpClick().then(r => {})
+    handleSignUpClick().then(r => {
+    })
 })
 
 async function handleSignUpClick() {
     const signUpButtonText = signUpButton.textContent
     signUpButton.style.minWidth = signUpButton.offsetWidth.toString() + "px";
     signUpButton.innerHTML = "<img src=\"assets/loading-animation.svg\" alt=\"\" class=\"loading\">";
-    
+
     const defer = function (notificationMsg) {
         setUpNotificationMessage(notificationMsg)
         showNotification()
@@ -33,7 +34,9 @@ function setUpNotificationMessage(msg) {
 async function sendRequest(userData) {
     try {
         const formData = new FormData()
-        formData.append('file_abstract_of_report', selectedFile)
+        if (selectedFile != null) {
+            formData.append('file_abstract_of_report', selectedFile)
+        }
         formData.append('language', currentLang.toLowerCase())
         Object.keys(userData).forEach(key => {
             formData.append(key, userData[key]);
@@ -41,7 +44,6 @@ async function sendRequest(userData) {
         const response = await fetch(REGISTER_PATH, {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json',
                 'Origin': "https://karb0n.ru/"
             },
             body: formData

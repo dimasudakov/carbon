@@ -89,24 +89,24 @@ function validateEmail(email) {
 }
 
 async function validateUserData(userData) {
-    if(userData.fio === '') {
-        return "Заполните ФИО"
-    }
-    if(userData.phone_number === '') {
-        return "Заполните номер телефона"
-    }
-    if(userData.email === '') {
-        return "Заполните email"
-    }
-    if(userData.organization === '') {
-        return "Заполните наименование организации и учебного заведения"
-    }
-    if (!validateEmail(userData.email)) {
-        return "Неверный email"
-    }
-    if(userData.conference_participation_format === "participant" && selectedFile == null) {
-        return "Загрузите тезис своей работы"
-    }
+    // if(userData.fio === '') {
+    //     return "Заполните ФИО"
+    // }
+    // if(userData.phone_number === '') {
+    //     return "Заполните номер телефона"
+    // }
+    // if(userData.email === '') {
+    //     return "Заполните email"
+    // }
+    // if(userData.organization === '') {
+    //     return "Заполните наименование организации и учебного заведения"
+    // }
+    // if (!validateEmail(userData.email)) {
+    //     return "Неверный email"
+    // }
+    // if(userData.conference_participation_format === "participant" && selectedFile == null) {
+    //     return "Загрузите тезис своей работы"
+    // }
     return ""
 }
 

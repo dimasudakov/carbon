@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="конференция, карбонатные отложения, казань, 2024"/>
+    <meta
+            name="description"
+            content="Казанский (Приволжский) федеральный университет приглашает специалистов принять участие в Международной научно-практической конференции «Карбонатные отложения 2024»"
+    />
+    <meta name="robots" content="all"/>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/circle.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/todo.css">
+    <link rel="stylesheet" href="styles/loop-strip.css">
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/scrollbar.css">
+    <link rel="stylesheet" href="styles/font-sz.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles/sign-up/slide1.css">
+    <link rel="stylesheet" href="styles/sign-up/form.css">
+    <link rel="stylesheet" href="styles/sign-up/upload-abstract.css">
+    <link rel="stylesheet" href="styles/sign-up/notification.css">
+
+    <title>Регистрация</title>
+</head>
+<body>
+<header id="carbon-header"></header>
+<div id="mobile-nav-bar"></div>
+
+<div class="notification" id="notification">
+    <div class="close-button" id="notification-close-button"></div>
+    <div id="notification-content" class="f-mx0_8"></div>
+</div>
+
+<div id="parallax" class="parallax">
+
+    <div id="group1" class="parallax__group-1">
+        <div class="parallax__layer parallax__layer--base parallax-padding slide1">
+            <div class="payload">
+                <div class="info">
+                    <h4 id="slide1_title" class="f-2 mr-1"></h4>
+                    <h2 id="slide1_title_2" class="f-3 mr-2"></h2>
+                    <div class="divider"></div>
+                    <h5 id="slide1_title_3" class="f-1 mr-1"></h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax__layer parallax__layer--back-slide1">
+            <img src="assets/background/shell-bottom.png" alt="" class="shell-top">
+        </div>
+    </div>
+
+    <div id="group2" class="parallax__group-2">
+        <div class="sign-up">
+            <h3 id="sign-up_title" class="f-2 mr-1 mb-3"></h3>
+            <div id="sign-up_title-2" class="f-mx1 mb-2"></div>
+
+            <div class="sign-up__form">
+                <div class="panel-main">
+                    <div class="section-inputs">
+                        <div class="input">
+                            <img src="assets/sign-up/user-logo.png" alt="" class="input-logo">
+                            <label for="username"></label>
+                            <input type="text" id="username" name="username" placeholder="Фамилия Имя Отчество">
+                        </div>
+                        <div class="input">
+                            <img src="assets/sign-up/phone-logo.png" alt="" class="input-logo">
+                            <label for="phone-number"></label>
+                            <input type="text" id="phone-number" name="phone-number" placeholder="Контактный номер">
+                        </div>
+                        <div class="input">
+                            <img src="assets/sign-up/email-logo.png" alt="" class="input-logo">
+                            <label for="email"></label>
+                            <input type="text" id="email" name="email" placeholder="Почта">
+                        </div>
+                        <div class="input">
+                            <img src="assets/sign-up/geo-logo.png" alt="" class="input-logo">
+                            <label for="geo"></label>
+                            <input type="text" id="geo" name="geo" placeholder="Город">
+                        </div>
+                        <div class="input-textarea">
+                            <img src="assets/sign-up/university-logo.png" alt="" class="input-logo">
+                            <label for="university"></label>
+                            <textarea id="university" name="university"
+                                      placeholder="Наименование организации или высшего учебного заведения"></textarea>
+                        </div>
+                    </div>
+                    <div class="section-radios">
+                        <div class="radio">
+                            <img src="assets/sign-up/cloud-logo.png" alt="" class="radio-logo">
+                            <div class="payload">
+                                <div class="f-mx0_8 mb-1" id="sign-up__select-title-1"></div>
+                                <div class="radio-group-1">
+                                    <p>
+                                        <input type="radio" id="offline" name="attendance" checked>
+                                        <label for="offline" id="sign-up__offline" class="f-mx0_8"></label>
+                                    </p>
+                                    <p>
+                                        <input type="radio" id="online" name="attendance">
+                                        <label for="online" id="sign-up__online" class="f-mx0_8"></label>
+                                    </p>
+                                </div>
+                                <div class="radio-group-2">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="radio">
+                            <img src="assets/sign-up/star-logo.png" alt="" class="radio-logo">
+                            <div class="payload">
+                                <div class="f-mx0_8 mb-1" id="sign-up__select-title-2"></div>
+                                <div class="radio-group-2">
+                                    <p>
+                                        <input type="radio" id="geology_and_petrophysics" name="section" checked>
+                                        <label for="geology_and_petrophysics" id="sign-up__geo-and-petr" class="f-mx0_8"></label>
+                                    </p>
+                                    <p>
+                                        <input type="radio" id="methods_of_study_and_laboratory_research" name="section">
+                                        <label for="methods_of_study_and_laboratory_research" id="sign-up__lab" class="f-mx0_8"></label>
+                                    </p>
+                                    <p>
+                                        <input type="radio" id="field_development" name="section">
+                                        <label for="field_development" id="sign-up__dev" class="f-mx0_8"></label>
+                                    </p>
+                                </div>
+                                <div class="radio-group-2">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="radio">
+                            <img src="assets/sign-up/circle-logo.png" alt="" class="radio-logo">
+                            <div class="payload">
+                                <div class="f-mx0_8 mb-1" id="sign-up__select-title-3"></div>
+                                <div class="radio-group-3">
+                                    <p>
+                                        <input type="radio" id="yes" name="masterClasses" checked>
+                                        <label for="yes" id="sign-up__yes-master" class="f-mx0_8"></label>
+                                    </p>
+                                    <p>
+                                        <input type="radio" id="no" name="masterClasses">
+                                        <label for="no" id="sign-up__no-master" class="f-mx0_8"></label>
+                                    </p>
+                                </div>
+                                <div class="radio-group-2">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="radio">
+                            <img src="assets/sign-up/crown-logo.png" alt="" class="radio-logo">
+                            <div class="payload">
+                                <div class="f-mx0_8 mb-1" id="sign-up__select-title-4"></div>
+                                <div class="radio-group-4">
+                                    <p>
+                                        <input type="radio" id="participant" name="participationFormat" checked>
+                                        <label for="participant" id="sign-up__participant" class="f-mx0_8"></label>
+                                    </p>
+                                    <p>
+                                        <input type="radio" id="delegate" name="participationFormat">
+                                        <label for="delegate" id="sign-up__delegat" class="f-mx0_8"></label>
+                                    </p>
+                                    <p>
+                                        <input type="radio" id="expert" name="participationFormat">
+                                        <label for="expert" id="sign-up__expert" class="f-mx0_8"></label>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="group3" class="parallax__group-3">
+        <div id="upload-panel-wrapper">
+            <div class="upload-panel">
+                <div class="title">
+                    <div class="f-mx1" id="sign-up__upload-abstract-title-1"></div>
+                    <div class="f-mx1 link" id="sign-up__upload-abstract-template"></div>
+                </div>
+            </div>
+            <div class="upload-field" onclick="document.getElementById('abstractFileInput').click()">
+                <input type="file" id="abstractFileInput" style="display: none;" accept=".doc,.docx,.pdf">
+
+                <div class="abstract-input-placeholder f-mx1" id="sign-up__upload-abstract-placeholder"></div>
+            </div>
+        </div>
+        <div class="agreements">
+            <div style="display: flex;">
+                <p>
+                    <input type="radio" id="rules-agree" name="rulesAgree">
+                    <label for="rules-agree">&nbsp;</label>
+                <div id="sign-up__rules-agree" class="f-mx0_8 link"></div>
+                </p>
+            </div>
+            <div style="display: flex;">
+                <p>
+                    <input type="radio" id="personal-data-agree" name="personalDataAgree">
+                    <label for="personal-data-agree">&nbsp;</label>
+                <div id="sign-up__personal-data-agree" class="f-mx0_8"></div>
+                </p>
+            </div>
+        </div>
+
+        <div class="sign-up-button-wrapper">
+            <button class="sign-up-button gradient-btn f-mx2" id="sign-up__button"></button>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="./js/header/header.js"></script>
+<script type="text/javascript" src="./js/header/navbar.js"></script>
+<script type="text/javascript" src="js/language/language.js"></script>
+<script type="text/javascript" src="js/header/actions.js"></script>
+<script type="text/javascript" src="js/sign-up/agree-buttons.js"></script>
+<script type="text/javascript" src="js/sign-up/rules-file.js"></script>
+<script type="text/javascript" src="js/sign-up/sign-up-button-disabled.js"></script>
+<script type="text/javascript" src="js/sign-up/thesis-template-download.js"></script>
+<script type="text/javascript" src="js/sign-up/export-abstract-file.js"></script>
+<script type="text/javascript" src="js/sign-up/notification.js"></script>
+<script type="text/javascript" src="js/sign-up/form.js"></script>
+<!--<script type="text/javascript" src="js/sign-up-shell.js"></script>-->
+
+</body>
+</html>

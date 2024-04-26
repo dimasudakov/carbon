@@ -1,0 +1,118 @@
+
+.parallax__group-3 {
+    padding: 0 var(--page-content-padding);
+}
+
+.upload-panel {
+    color: white;
+    display: flex;
+    width: 90%;
+
+    .title {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.upload-field {
+    width: calc(90% - 40px);
+    height: max(50px, 6vh);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(135, 135, 135, 0.96);
+    border-radius: var(--sign-up-panel-border-radius);
+    margin: max(2vh, 20px) 0;
+    cursor: pointer;
+
+    .abstract-input-placeholder {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        gap: 10px;
+
+        .cancel-logo {
+            height: 50%;
+            color: white;
+        }
+
+        .cancel-logo:hover {
+            content: url('/assets/sign-up/logo-cancel-green.png');
+        }
+    }
+}
+
+.agreements {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: max(2vh, 20px);
+}
+
+.sign-up-button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: max(4vh, 40px);
+    .sign-up-button {
+        height: 6vh;
+        border-radius: 3vh;
+        display: flex;
+        padding: 0 2vw;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(38, 37, 37, 0.90);
+        cursor: pointer;
+        color: black;
+        border: none;
+    }
+
+    .sign-up-button:disabled {
+        cursor: not-allowed !important;
+        opacity: 0.5; /* Прозрачность */
+    }
+
+    .gradient-btn {
+        background: linear-gradient(360deg, #00E0FF -1.13%, #00FA9C 100%);
+        box-shadow: 0px 0px 37.9px rgba(0, 224, 255, 0.5);
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .parallax__group-3 {
+        padding: 0 var(--page-content-padding-mobile);
+    }
+
+    .sign-up-button-wrapper {
+        .sign-up-button {
+            padding: 0 20px;
+        }
+    }
+
+    .upload-panel {
+        width: 100%;
+        .title {
+            gap: 20px;
+        }
+    }
+
+    .upload-field {
+        width: calc(100% - 40px);
+    }
+}
+
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#upload-panel-wrapper {
+    display: flex;
+    flex-direction: column;
+}

@@ -6,7 +6,7 @@ let prevWindowWidth = -1
 
 function updateHeader() {
     const bigHeader = `
-        <img src="" alt="" class="header-logo-big" id="header-logo">
+        <a href="index.html"> <img src="" alt="" class="header-logo-big" id="header-logo"></a>
         <div class="header-btn-wrapper">
             <a class="header-item f-mx1" href="#" id="navbar_title_2"></a>
         </div>
@@ -23,7 +23,7 @@ function updateHeader() {
             <a class="header-item f-mx1" href="#" id="header_title_2"></a>
         </div>
         <div class="header-btn-wrapper">
-            <a class="header-item f-mx1 gradient-header relative" href="https://docs.google.com/forms/d/e/1FAIpQLScjIwM_fqLaUyaJCpZesMHfJPYK167f-lKuGipJBYgEXpsh0Q/viewform?usp=sf_link" id="header_title_3"></a>
+            <a class="header-item f-mx1 gradient-header relative" href="sign-up.html" id="header_title_3"></a>
         </div>
         <div class="header-btn-wrapper">
             <a class="header-item f-mx1" href="#" id="navbar_title_10"></a>

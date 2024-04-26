@@ -1,4 +1,4 @@
-    const shellTop = document.querySelector('.shell-top')
+const shellTop = document.querySelector('.shell-top')
 const shellBottom = document.querySelector('.shell-bottom')
 const group1 = document.getElementById('group1')
 const group2 = document.getElementById('group2')

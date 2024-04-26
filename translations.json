@@ -100,7 +100,32 @@
     "timer-text-401c1e573525e90fd43dd023fdf4bbcf-minutes": "minutes",
     "timer-text-401c1e573525e90fd43dd023fdf4bbcf-secundes": "seconds",
 
-    "download-doc": "Download full terms"
+    "download-doc": "Download full terms",
+
+    "sign-up_title": "Become a Participant",
+    "sign-up_title-2": "Please fill in the following fields in order to participate in the conference",
+    "sign-up__select-title-1": "Attendance Type",
+    "sign-up__select-title-2": "Section",
+    "sign-up__select-title-3": "Participation in Roundtable Discussion",
+    "sign-up__select-title-4": "Conference Participation Format",
+
+    "sign-up__offline": "Offline",
+    "sign-up__online": "Online",
+    "sign-up__geo-and-petr": "Geology and Petrophysics",
+    "sign-up__lab": "Methods of Study and Laboratory Research",
+    "sign-up__dev": "Field Development",
+    "sign-up__yes-master": "I will participate",
+    "sign-up__no-master": "I won't participate",
+    "sign-up__participant": "Participant",
+    "sign-up__delegat": "Delegate",
+    "sign-up__expert": "Expert",
+
+    "sign-up__upload-abstract-title-1": "Upload your abstract",
+    "sign-up__upload-abstract-template": "Abstract Template",
+    "sign-up__upload-abstract-placeholder": "Add a document here (.docx)",
+    "sign-up__rules-agree": "I have read the terms of participation in the conference",
+    "sign-up__personal-data-agree": "I give my consent to the processing of personal data",
+    "sign-up__button": "Register"
   },
 
   "Ru": {
@@ -205,6 +230,31 @@
     "timer-text-401c1e573525e90fd43dd023fdf4bbcf-minutes": "минут",
     "timer-text-401c1e573525e90fd43dd023fdf4bbcf-secundes": "секунд",
 
-    "download-doc": "Скачать полный регламент"
+    "download-doc": "Скачать полный регламент",
+
+    "sign-up_title": "Стать участником",
+    "sign-up_title-2": "Чтобы участвовать в конференции необходимо заполнить следующие поля",
+    "sign-up__select-title-1": "Присутствие на конференции",
+    "sign-up__select-title-2": "Направления",
+    "sign-up__select-title-3": "Участие в круглых столах и мастер-классах",
+    "sign-up__select-title-4": "Формат участия в конференции",
+
+    "sign-up__offline": "Оффлайн",
+    "sign-up__online": "Онлайн",
+    "sign-up__geo-and-petr": "Геология и петрофизика",
+    "sign-up__lab": "Методика изучения и лабораторные исследования",
+    "sign-up__dev": "Разработка",
+    "sign-up__yes-master": "Буду участвовать",
+    "sign-up__no-master": "Не буду участвовать",
+    "sign-up__participant": "Участник",
+    "sign-up__delegat": "Делегат",
+    "sign-up__expert": "Эксперт",
+
+    "sign-up__upload-abstract-title-1": "Загрузите тезис своей работы",
+    "sign-up__upload-abstract-template": "Скачать шаблон оформления тезисов",
+    "sign-up__upload-abstract-placeholder": "Перетащите сюда документ (.docx)",
+    "sign-up__rules-agree": "С правилами участия в конференции ознакомлен",
+    "sign-up__personal-data-agree": "Даю согласие на обработку персональных данных",
+    "sign-up__button": "Зарегистрироваться"
   }
 }

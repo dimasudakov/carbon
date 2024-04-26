@@ -78,6 +78,8 @@ function changePageLang() {
     changePicture("georesources2", "assets/loop-strip/", "-georesources.png")
 
     changePicture("header-logo", "assets/header/", "-logo.svg")
+    
+    changeSignUpFormPlaceholders()
 }
 
 function loadTranslations() {
@@ -105,5 +107,24 @@ addEventListener('resize', () => {
 function changePicture(id, pathPrefix, name) {
     if(document.getElementById(id)) {
         document.getElementById(id).src = pathPrefix + currentLang.toLowerCase() + name
+    }
+}
+
+function changeSignUpFormPlaceholders() {
+    changePlaceholder("username", "Фамилия Имя Отчество", "Full Name")
+    changePlaceholder("phone-number", "Контактный телефон", "Tel.")
+    changePlaceholder("email", "Почта", "E-mail")
+    changePlaceholder("geo", "Город", "Town/City")
+    changePlaceholder("university", "Наименование организации или высшего учебного заведения", "Name of higher educational institution/organization")
+}
+
+function changePlaceholder(id, ruValue, enValue) {
+    if(document.getElementById(id)) {
+        if(currentLang === "Ru") {
+            document.getElementById(id).placeholder = ruValue
+        }
+        if(currentLang === "En") {
+            document.getElementById(id).placeholder = enValue
+        }
     }
 }

@@ -1,0 +1,44 @@
+
+:root {
+    --notification-height: max(150px, 19vh);
+    --notification-width: max(250px, 25vw);
+    --notification-padding: calc(0.20 * var(--notification-height));
+    --left-offset: calc(100vw - var(--notification-width) - 2 * var(--notification-padding) - 5vw);
+}
+
+.notification {
+    position: absolute;
+    left: 100vw;
+    top: calc(100vh - var(--notification-height) - 6vh);
+    width: var(--notification-width);
+    background-color: rgb(49, 48, 48);
+    border: 1px solid rgb(122, 120, 120);
+    z-index: 100;
+    border-radius: calc(0.1 * var(--notification-height));
+    color: white;
+    padding: var(--notification-padding);
+    transition: left 0.3s ease;
+
+    .close-button {
+        position: absolute;
+        top: max(0.6vw, 6px);
+        right: max(0.6vw, 6px);
+        width: max(30px, min(10%, 2vw));
+        aspect-ratio: 1;
+        content: url("/assets/sign-up/logo-cancel.png");
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .close-button:hover {
+        content: url("/assets/sign-up/logo-cancel-green.png");
+    }
+}
+
+
+/* для узких экранов отдельное окно */
+/*@media screen and (max-width: 600px) {*/
+/*    .notification {*/
+/*        display: none;*/
+/*    }*/
+/*}*/

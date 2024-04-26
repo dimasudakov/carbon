@@ -1,0 +1,252 @@
+
+.parallax__group-2 {
+    position: relative;
+    transform-style: preserve-3d;
+    padding: 8vh var(--page-content-padding);
+    padding-bottom: max(2vh, 20px);
+}
+
+.parallax-left-padding {
+    padding-left: 100px;
+}
+
+.sign-up {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+    .sign-up__form {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+.panel-main {
+    display: flex;
+    width: calc(90% - 60px);
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(135, 135, 135, 0.96);
+    border-radius: var(--sign-up-panel-border-radius);
+    overflow: hidden;
+    padding: 30px;
+    gap: 10%;
+
+    .section-inputs {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .section-radios {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .parallax__group-2 {
+        height: auto;
+        padding: 8vh var(--page-content-padding-mobile);
+    }
+
+    .panel-main {
+        padding: 15px;
+        width: calc(100% - 30px);
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+
+.input {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    height: 30px;
+    align-items: center;
+
+    .input-logo {
+        width: 14px;
+    }
+
+    input {
+        border-radius: 6px;
+        flex: 1;
+        height: 100%;
+        padding: 0 10px;
+        background: rgba(135, 135, 135, 0.96);
+        color: white;
+        border: none;
+        word-wrap: break-word;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+    }
+    input::placeholder {
+        color: white;
+        width: 100%;
+    }
+
+}
+
+.input-textarea {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    height: 50px;
+    align-items: center;
+
+    .input-logo {
+        display: flex;
+        width: 14px;
+    }
+
+    textarea {
+        border-radius: 6px;
+        flex: 1;
+        padding: 10px;
+        background: rgba(135, 135, 135, 0.96);
+        color: white;
+        border: none;
+        word-wrap: break-word;
+        resize: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+    }
+    textarea::placeholder {
+        color: white;
+        width: 100%;
+    }
+}
+
+:root {
+    --radio-size: calc(max(13px, 0.8vw));
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+    .radio-logo {
+        height: 14px;
+    }
+
+    .payload {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.radio-group-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.radio-group-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.radio-group-4 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+/* лэйбл */
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: calc(max(20px, 1vw));
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+}
+[type="radio"]:checked + label:before {
+    /*content: '';*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*width: var(--radio-size);*/
+    /*height: var(--radio-size);*/
+    /*border: 3px solid #00ffc4;*/
+    /*border-radius: 100%;*/
+    content: "";
+    display: inline-block;
+    width: var(--radio-size);
+    height: var(--radio-size);
+    position: absolute;
+    left: 0;
+    background-image: url(../../assets/sign-up/radio-checked.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+[type="radio"]:not(:checked) + label:before {
+    /*content: '';*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*width: var(--radio-size);*/
+    /*height: var(--radio-size);*/
+    /*border: 3px solid #ffffff;*/
+    /*border-radius: 100%;*/
+    content: "";
+    display: inline-block;
+    width: var(--radio-size);
+    height: var(--radio-size);
+    position: absolute;
+    left: 0;
+    background-image: url(../../assets/sign-up/radio.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*[type="radio"]:checked + label:after,*/
+/*[type="radio"]:not(:checked) + label:after {*/
+/*    content: '';*/
+/*    width: var(--radio-circle-size);*/
+/*    height: var(--radio-circle-size);*/
+/*    background: var(--linear-gradient-1);*/
+/*    position: absolute;*/
+/*    top: 4px;*/
+/*    left: 5px;*/
+/*    border-radius: 100%;*/
+/*    -webkit-transition: all 0.2s ease;*/
+/*    transition: all 0.2s ease;*/
+/*}*/
+/*[type="radio"]:not(:checked) + label:after {*/
+/*    opacity: 0;*/
+/*    transform: scale(0);*/
+/*}*/
+/*[type="radio"]:checked + label:after {*/
+/*    opacity: 1;*/
+/*    transform: scale(1);*/
+/*}*/
+

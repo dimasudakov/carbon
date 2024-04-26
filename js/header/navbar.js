@@ -4,8 +4,10 @@ const content = `
 <div class="content">
         <ul>
             <li class="navbar-action">
-                <span id="navbar_title_1_m"></span>
-                <img src="assets/header/home.svg" alt="" class="li-logo" />
+                <a href="index.html" style="color: white; text-decoration: none;">
+                    <span id="navbar_title_1_m"></span>
+                    <img src="assets/header/home.svg" alt="" class="li-logo" />
+                </a>
             </li>
             <li class="ml-30 navbar-action">
                 <span id="navbar_title_2_m"></span>

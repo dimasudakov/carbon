@@ -41,7 +41,8 @@ async function sendRequest(userData) {
         const response = await fetch(REGISTER_PATH, {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Origin': "https://karb0n.ru/"
             },
             body: formData
         });

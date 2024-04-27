@@ -11,7 +11,7 @@
     "slide1_become-participant": "Participate",
 
 
-    "slide2_title_1": "Kazan (Volga Region) Federal University invites specialists to take part in the International Scientific and Practical Conference",
+    "slide2_title_1": "Kazan (Volga Region) Federal University and Association of Geologists, Geophysicists and Engineers invites specialists to take part in the International Scientific and Practical Conference",
     "slide2_title_2": "«Carbonate sediments 2024»",
     "slide2_title_3": "The conference aims to assess the capabilities of young researchers, students, and professionals in research endeavors, fostering project initiatives, and facilitating the free exchange of information and viewpoints among scientists and practitioners in the area of carbonate sediments. The conference provides a valuable platform for young researchers to showcase their scientific findings, forge new connections, and share knowledge.",
     "slide2_title_4": "There is still time before the start of the conference",
@@ -35,7 +35,7 @@
     "line_title_6": "INFORMATION PARTNER",
 
     "slide4_title_1": "Sections",
-    "slide4_title_2": "Geology and Petrophysics",
+    "slide4_title_2": "Geology and Geophysics",
     "slide4_title_3": "Carbonate oil and gas fields development modeling (facial, petrophysical, sequence stratigraphy, geological, geomechanical, reservoir simulation). Models of carbonate reservoirs formation.",
     "slide4_title_4": "Challenges of searching for promising zones, prospecting indicators, approaches to modeling",
     "slide4_title_5": "Problems of correlating coeval carbonate sediments in connection with high lateral variability (facies variability and variability of petrophysical properties). Forecasting methods, examples of best practices",
@@ -52,7 +52,7 @@
     "slide4_title_16": "Dolomite reservoirs specifics",
     "slide4_title_17": "Problems of developing carbonate reservoirs with difficult-to-recover reserves",
     "slide4_title_18": "Challenges of developing fractured carbonate reservoirs and fractured zones forecasting",
-    "slide4_title_19": "Field development",
+    "slide4_title_19": "Field Development, well drilling and exploration",
     "slide4_title_20": "Carbonate reservoirs: development design and challenges. Well interventions, production, geological prospecting and exploration, pilot development planning, production drilling – minimizing uncertainties, how to work with carbonates, what are the differences from simple reservoirs",
     "slide4_title_21": "Modeling of auto-fracturing processes in carbonate reservoirs",
     "slide4_title_22": "Acid treatment designs",
@@ -111,9 +111,9 @@
 
     "sign-up__offline": "Offline",
     "sign-up__online": "Online",
-    "sign-up__geo-and-petr": "Geology and Petrophysics",
+    "sign-up__geo-and-petr": "Geology and Geophysics",
     "sign-up__lab": "Methods of Study and Laboratory Research",
-    "sign-up__dev": "Field Development",
+    "sign-up__dev": "Field Development, well drilling and exploration",
     "sign-up__yes-master": "I will participate",
     "sign-up__no-master": "I won't participate",
     "sign-up__participant": "Participant",
@@ -122,7 +122,7 @@
 
     "sign-up__upload-abstract-title-1": "Upload your abstract",
     "sign-up__upload-abstract-template": "Abstract Template",
-    "sign-up__upload-abstract-placeholder": "Add a document here (.docx)",
+    "sign-up__upload-abstract-placeholder": "Add a document here (.docx, .doc, .pdf)",
     "sign-up__rules-agree": "I have read the terms of participation in the conference",
     "sign-up__personal-data-agree": "I give my consent to the processing of personal data",
     "sign-up__button": "Register"
@@ -139,7 +139,7 @@
     "slide1_action_5": "Шаблон оформления тезисов",
     "slide1_become-participant": "Принять участие",
 
-    "slide2_title_1": "Казанский (Приволжский) федеральный университет приглашает специалистов принять участие в Международной научно-практической конференции",
+    "slide2_title_1": "Казанский (Приволжский) федеральный университет  и Ассоциация геологов геофизиков и инженеров (АГГИ) приглашают специалистов принять участие в Международной научно-практической конференции.",
     "slide2_title_2": "«Карбонатные отложения 2024»",
     "slide2_title_3": "Конференция проводится в целях выявления способностей молодых исследователей, к научно-исследовательской деятельности, формирования проектных инициатив, предоставления ученым, практикующим специалистам возможности свободного обмена информацией и мнениями по теории и практике в области петрофизических исследований свойств пластовых флюидов и разработки карбонатных месторождений. Конференция является прекрасной возможностью для молодых исследователей представить свои научные результаты, завести рабочие знакомства и обменяться знаниями.",
     "slide2_title_4": "До начала конференции осталось",
@@ -163,7 +163,7 @@
     "line_title_6": "Информационный партнер",
 
     "slide4_title_1": "Направления конференции",
-    "slide4_title_2": "Геология и петрофизика",
+    "slide4_title_2": "Геология и геофизика",
     "slide4_title_3": "Моделирование при освоении месторождений нефти и газа в карбонатных коллекторах (фациальное, петрофизическое, секвенс-стратиграфия, геологическое, геомеханическое,гидродинамическое). Модели формирования карбонатных коллекторов.",
     "slide4_title_4": "Проблемы поиска перспективных зон, поисковые признаки, подходы к моделированию",
     "slide4_title_5": "Проблема корреляции одновозрастных карбонатных отложений в связи и высокой латеральной изменчивостью (фациальная изменчивость и изменчивость петрофизических свойств). Методы прогнозирования, примеры лучших практик",
@@ -180,7 +180,7 @@
     "slide4_title_16": "Специфика доломитовых резервуаров;",
     "slide4_title_17": "Проблемы освоения карбонатных коллекторов с трудно извлекаемыми запасами.",
     "slide4_title_18": "Проблема освоения трещиноватых карбонатных коллекторов и прогноз зон трещиноватости.",
-    "slide4_title_19": "Разработка",
+    "slide4_title_19": "Разработка, бурение и исследование скважин",
     "slide4_title_20": "Разработка карбонатных коллекторов. Проектирование разработки и сложности. ГТМ, добыча пгрр, опр, эб – снятие неопределенностей, как работать с карбонатами, в чем отличия от простых коллекторов",
     "slide4_title_21": "Моделирование процессов автоГРП в карбонатных коллекторах",
     "slide4_title_22": "Дизайн соляно-кислотных обработок",
@@ -241,9 +241,9 @@
 
     "sign-up__offline": "Оффлайн",
     "sign-up__online": "Онлайн",
-    "sign-up__geo-and-petr": "Геология и петрофизика",
+    "sign-up__geo-and-petr": "Геология и геофизика",
     "sign-up__lab": "Методика изучения и лабораторные исследования",
-    "sign-up__dev": "Разработка",
+    "sign-up__dev": "Разработка, бурение и исследование скважин",
     "sign-up__yes-master": "Буду участвовать",
     "sign-up__no-master": "Не буду участвовать",
     "sign-up__participant": "Участник",
@@ -252,7 +252,7 @@
 
     "sign-up__upload-abstract-title-1": "Загрузите тезис своей работы",
     "sign-up__upload-abstract-template": "Скачать шаблон оформления тезисов",
-    "sign-up__upload-abstract-placeholder": "Перетащите сюда документ (.docx)",
+    "sign-up__upload-abstract-placeholder": "Перетащите сюда документ (.docx, .doc, .pdf)",
     "sign-up__rules-agree": "С правилами участия в конференции ознакомлен",
     "sign-up__personal-data-agree": "Даю согласие на обработку персональных данных",
     "sign-up__button": "Зарегистрироваться"

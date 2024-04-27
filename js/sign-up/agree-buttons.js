@@ -2,7 +2,7 @@ const rulesAgreeButton = document.getElementById('rules-agree');
 const personalDataAgreeButton = document.getElementById('personal-data-agree');
 const signUpButton = document.getElementById('sign-up__button');
 
-// signUpButton.disabled = true;
+signUpButton.disabled = true;
 
 let rulesAgreeValue = false;
 let personalDataAgreeValue = false;
@@ -28,6 +28,6 @@ personalDataAgreeButton.addEventListener('click', function() {
 });
 
 function updateSignUpButton() {
-    // signUpButton.disabled = !(rulesAgreeValue && personalDataAgreeValue);
+    signUpButton.disabled = !(rulesAgreeValue && personalDataAgreeValue);
 }
 

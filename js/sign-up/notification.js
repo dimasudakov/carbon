@@ -17,7 +17,7 @@ function showNotification() {
     }
     notificationCloseTimer = setTimeout(() => {
         closeNotification()
-    }, 5000)
+    }, 7000)
 }
 
 function closeNotification() {

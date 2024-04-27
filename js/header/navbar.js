@@ -34,8 +34,10 @@ const content = `
                 <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
             </li>
             <li class="ml-30 navbar-action">
-                <span id="navbar_title_8_m"></span>
-                <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
+                <a href="sign-up.html" style="color: white; text-decoration: none;">
+                    <span id="navbar_title_8_m"></span>
+                    <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
+                </a>
             </li>
             <li class="ml-30 navbar-action">
                 <div class="circle-container circle-small mr-10" >

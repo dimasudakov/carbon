@@ -64,6 +64,7 @@ function changePageLang() {
     changePicture("tag4", "assets/slide2/", "-tag4.png")
 
     changePicture("kpfu", "assets/loop-strip/", "-kpfu.png")
+    changePicture("aggi", "assets/loop-strip/", "-aggi.png")
     changePicture("planet", "assets/loop-strip/", "-planet.png")
     changePicture("tatneft", "assets/loop-strip/", "-tatneft.png")
     changePicture("gasprom", "assets/loop-strip/", "-gasprom.png")
@@ -71,6 +72,7 @@ function changePageLang() {
     changePicture("georesources", "assets/loop-strip/", "-georesources.png")
 
     changePicture("kpfu2", "assets/loop-strip/", "-kpfu.png")
+    changePicture("aggi2", "assets/loop-strip/", "-aggi.png")
     changePicture("planet2", "assets/loop-strip/", "-planet.png")
     changePicture("tatneft2", "assets/loop-strip/", "-tatneft.png")
     changePicture("gasprom2", "assets/loop-strip/", "-gasprom.png")

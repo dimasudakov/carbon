@@ -50,9 +50,9 @@ async function sendRequest(userData) {
         });
     } catch (error) {
         console.error('Ошибка:', error);
-        return "Не получилось выполнить запрос";
+        return notificationMessages[currentLang.toLowerCase()].failRegistration
     }
-    return "success registration"
+    return notificationMessages[currentLang.toLowerCase()].successRegistration
 }
 
 function getUser() {
@@ -91,24 +91,27 @@ function validateEmail(email) {
 }
 
 async function validateUserData(userData) {
-    // if(userData.fio === '') {
-    //     return "Заполните ФИО"
-    // }
-    // if(userData.phone_number === '') {
-    //     return "Заполните номер телефона"
-    // }
-    // if(userData.email === '') {
-    //     return "Заполните email"
-    // }
-    // if(userData.organization === '') {
-    //     return "Заполните наименование организации и учебного заведения"
-    // }
-    // if (!validateEmail(userData.email)) {
-    //     return "Неверный email"
-    // }
-    // if(userData.conference_participation_format === "participant" && selectedFile == null) {
-    //     return "Загрузите тезис своей работы"
-    // }
+    if(userData.fio === '') {
+        return notificationMessages[currentLang.toLowerCase()].emptyFIO
+    }
+    if(userData.phone_number === '') {
+        return notificationMessages[currentLang.toLowerCase()].emptyPhoneNumber
+    }
+    if(userData.email === '') {
+        return notificationMessages[currentLang.toLowerCase()].emptyEmail
+    }
+    if(userData.city === '') {
+        return notificationMessages[currentLang.toLowerCase()].emptyCity
+    }
+    if(userData.organization === '') {
+        return notificationMessages[currentLang.toLowerCase()].emptyOrganization
+    }
+    if (!validateEmail(userData.email)) {
+        return notificationMessages[currentLang.toLowerCase()].invalidEmail
+    }
+    if(userData.conference_participation_format === "participant" && selectedFile == null) {
+        return notificationMessages[currentLang.toLowerCase()].missingThesis
+    }
     return ""
 }
 

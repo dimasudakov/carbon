@@ -68,7 +68,6 @@ function changePageLang() {
     changePicture("planet", "assets/loop-strip/", "-planet.png")
     changePicture("tatneft", "assets/loop-strip/", "-tatneft.png")
     changePicture("gasprom", "assets/loop-strip/", "-gasprom.png")
-    changePicture("rosneft", "assets/loop-strip/", "-rosneft.png")
     changePicture("georesources", "assets/loop-strip/", "-georesources.png")
 
     changePicture("kpfu2", "assets/loop-strip/", "-kpfu.png")
@@ -76,12 +75,15 @@ function changePageLang() {
     changePicture("planet2", "assets/loop-strip/", "-planet.png")
     changePicture("tatneft2", "assets/loop-strip/", "-tatneft.png")
     changePicture("gasprom2", "assets/loop-strip/", "-gasprom.png")
-    changePicture("rosneft2", "assets/loop-strip/", "-rosneft.png")
     changePicture("georesources2", "assets/loop-strip/", "-georesources.png")
 
     changePicture("header-logo", "assets/header/", "-logo.svg")
-    
+
+    changePicture("img-7", "assets/excurs/", "-img.png")
+
     changeSignUpFormPlaceholders()
+
+    changePhotos(currentLang)
 }
 
 function loadTranslations() {
@@ -107,7 +109,7 @@ addEventListener('resize', () => {
 })
 
 function changePicture(id, pathPrefix, name) {
-    if(document.getElementById(id)) {
+    if (document.getElementById(id)) {
         document.getElementById(id).src = pathPrefix + currentLang.toLowerCase() + name
     }
 }
@@ -121,12 +123,27 @@ function changeSignUpFormPlaceholders() {
 }
 
 function changePlaceholder(id, ruValue, enValue) {
-    if(document.getElementById(id)) {
-        if(currentLang === "Ru") {
+    if (document.getElementById(id)) {
+        if (currentLang === "Ru") {
             document.getElementById(id).placeholder = ruValue
         }
-        if(currentLang === "En") {
+        if (currentLang === "En") {
             document.getElementById(id).placeholder = enValue
+        }
+    }
+}
+
+function changePhotos() {
+    for (let i = 1; i <= 17; i++) {
+        const pngId = "ph-" + i
+        if (currentLang === "Ru") {
+            if (document.getElementById(pngId)) {
+                document.getElementById(pngId).src = document.getElementById(pngId).src.replace("en", "ru")
+            }
+        } else {
+            if (document.getElementById(pngId)) {
+                document.getElementById(pngId).src = document.getElementById(pngId).src.replace("ru", "en")
+            }
         }
     }
 }

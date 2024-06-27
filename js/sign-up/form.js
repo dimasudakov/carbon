@@ -77,7 +77,7 @@ function getUser() {
         email: emailInput.value,
         city: geoInput.value,
         organization: universityTextarea.value,
-        attendance_type: selectedOptions["attendance"],
+        // attendance_type: selectedOptions["attendance"],
         section: selectedOptions["section"],
         participation_in_roundtable_discussion: selectedOptions["masterClasses"],
         conference_participation_format: selectedOptions["participationFormat"]

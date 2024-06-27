@@ -1,0 +1,41 @@
+
+.parallax__group-7 {
+    position: relative;
+    width: 100%;
+
+    .img-7 {
+        width: 100%;
+    }
+
+    .s-btn {
+        position: absolute;
+        right: 130px;
+        bottom: 60px;
+        height: calc(30px + 1vh) !important;
+    }
+
+    .wr-7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 26px;
+        width: 100%;
+        position: absolute;
+        bottom: 10px;
+    }
+    .s-btn-mob {
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #sl-7-mob {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #sl-7-desk {
+        display: none;
+    }
+}

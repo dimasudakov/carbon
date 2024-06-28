@@ -124,7 +124,7 @@
 
     "sign-up__upload-abstract-title-1": "Upload your abstract",
     "sign-up__upload-abstract-template": "Abstract Template",
-    "sign-up__upload-abstract-placeholder": "Add a document here (.docx, .doc, .pdf)",
+    "sign-up__upload-abstract-placeholder": "Attach a document here (.docx, .doc, .pdf)",
     "sign-up__rules-agree": "I have read the terms of participation in the conference",
     "sign-up__personal-data-agree": "I give my consent to the processing of personal data",
     "sign-up__button": "Register"
@@ -256,7 +256,7 @@
 
     "sign-up__upload-abstract-title-1": "Загрузите тезис своей работы",
     "sign-up__upload-abstract-template": "Скачать шаблон оформления тезисов",
-    "sign-up__upload-abstract-placeholder": "Перетащите сюда документ (.docx, .doc, .pdf)",
+    "sign-up__upload-abstract-placeholder": "Прикрепить тезисы (.docx, .doc, .pdf)",
     "sign-up__rules-agree": "С правилами участия в конференции ознакомлен",
     "sign-up__personal-data-agree": "Даю согласие на обработку персональных данных",
     "sign-up__button": "Зарегистрироваться"

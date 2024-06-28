@@ -83,7 +83,7 @@ function changePageLang() {
 
     changeSignUpFormPlaceholders()
 
-    changePhotos(currentLang)
+    changePhotos()
 }
 
 function loadTranslations() {
@@ -135,15 +135,31 @@ function changePlaceholder(id, ruValue, enValue) {
 
 function changePhotos() {
     for (let i = 1; i <= 17; i++) {
-        const pngId = "ph-" + i
-        if (currentLang === "Ru") {
-            if (document.getElementById(pngId)) {
-                document.getElementById(pngId).src = document.getElementById(pngId).src.replace("en", "ru")
+        const pngId = "ph-" + i;
+        let imageElement = document.getElementById(pngId);
+        if (imageElement) {
+            let path = imageElement.src;
+            if (currentLang === "Ru") {
+                const index = path.lastIndexOf("/en/");
+                if (index !== -1) {
+                    path = path.substring(0, index + 1) + "ru/" + path.substring(index + 4);
+                }
+            } else {
+                const index = path.lastIndexOf("/ru/");
+                if (index !== -1) {
+                    path = path.substring(0, index + 1) + "en/" + path.substring(index + 4);
+                }
             }
-        } else {
-            if (document.getElementById(pngId)) {
-                document.getElementById(pngId).src = document.getElementById(pngId).src.replace("ru", "en")
-            }
+            imageElement.src = path;
         }
     }
 }
+
+
+const replaceSecondOccurrence = (str, find, replace) => {
+    const index = str.indexOf(find, str.indexOf(find) + find.length);
+    if (index !== -1) {
+        return str.substring(0, index) + replace + str.substring(index + find.length);
+    }
+    return str;
+};

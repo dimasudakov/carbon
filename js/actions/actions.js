@@ -1,6 +1,4 @@
 
-const signUpLing = 'https://docs.google.com/forms/d/e/1FAIpQLScjIwM_fqLaUyaJCpZesMHfJPYK167f-lKuGipJBYgEXpsh0Q/viewform?usp=sf_link'
-
 document.getElementById('slide1_action_1').addEventListener('click', function() {
     const group2 = document.getElementById('group2');
 
@@ -19,10 +17,6 @@ document.getElementById('slide1_action_2').addEventListener('click', function() 
     link.click();
 
     document.body.removeChild(link);
-});
-
-document.getElementById('slide1_action_3').addEventListener('click', function() {
-    window.location.href = signUpLing;
 });
 
 document.getElementById('slide1_action_4').addEventListener('click', function() {

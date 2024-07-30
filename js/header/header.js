@@ -22,8 +22,8 @@ function updateHeader() {
         <div class="header-btn-wrapper">
             <a class="header-item f-mx1" href="#" id="header_title_2"></a>
         </div>
-        <div class="header-btn-wrapper">
-            <a class="header-item f-mx1 gradient-header relative" href="sign-up.html" id="header_title_3"></a>
+        <div class="header-btn-wrapper">    
+            <a class="header-item f-mx1 gradient-header relative" id="header_title_3"></a>
         </div>
         <div class="header-btn-wrapper">
             <a class="header-item f-mx1" href="#" id="navbar_title_10"></a>
